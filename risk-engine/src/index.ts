@@ -315,11 +315,39 @@ export default {
       if (path === "/api/health") {
         return json({ status: "ok", timestamp: Date.now() });
       }
+      if (path === "/" || path === "") {
+        return new Response(
+          `<!DOCTYPE html>
+<html><head><title>RTO Firewall</title>
+<style>
+  body{font-family:system-ui;max-width:600px;margin:60px auto;padding:0 20px;background:#0f172a;color:#e2e8f0}
+  h1{color:#22c55e}a{color:#38bdf8}code{background:#1e293b;padding:2px 6px;border-radius:4px}
+  .endpoint{background:#1e293b;padding:12px;border-radius:8px;margin:8px 0;border-left:3px solid #22c55e}
+</style></head><body>
+<h1>RTO Firewall API</h1>
+<p>COD risk scoring engine for Indian D2C merchants.</p>
+<h3>Endpoints:</h3>
+<div class="endpoint"><code>POST /api/score</code> — Calculate risk score</div>
+<div class="endpoint"><code>GET /api/health</code> — Health check</div>
+<div class="endpoint"><code>POST /razorpay/shipping-info</code> — Magic Checkout API</div>
+<div class="endpoint"><code>POST /razorpay/get-promotions</code> — Promotions API</div>
+<div class="endpoint"><code>POST /webhook/razorpay</code> — Webhook receiver</div>
+<div class="endpoint"><code>GET /api/dashboard/stats</code> — Dashboard metrics</div>
+<div class="endpoint"><code>GET /api/dashboard/audit</code> — Audit log</div>
+<div class="endpoint"><code>POST /api/upload/pincodes</code> — Upload CSV data</div>
+<h3>Quick Test:</h3>
+<p><a href="/api/health">GET /api/health</a></p>
+<p><a href="http://localhost:3000">Open Demo Page →</a></p>
+<p><a href="http://localhost:5173">Open Dashboard →</a></p>
+</body></html>`,
+          { status: 200, headers: { "Content-Type": "text/html; charset=utf-8" } }
+        );
+      }
 
       return json({ error: "Not found" }, 404);
-    } catch (err) {
-      console.error("Worker error:", err);
-      return json({ error: "Internal server error" }, 500);
+    } catch (err: any) {
+      console.error("Worker error:", err?.message, err?.stack);
+      return json({ error: "Internal server error", detail: err?.message }, 500);
     }
   },
 };

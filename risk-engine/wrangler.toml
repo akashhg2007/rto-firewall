@@ -6,7 +6,7 @@ compatibility_flags = ["nodejs_compat"]
 observability = { enabled = true }
 
 kv_namespaces = [
-  { binding = "RTO_DATA", id = "YOUR_KV_NAMESPACE_ID" }
+  { binding = "RTO_DATA", id = "YOUR_KV_NAMESPACE_ID", preview_id = "YOUR_KV_NAMESPACE_ID" }
 ]
 
 [vars]

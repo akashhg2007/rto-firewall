@@ -16,12 +16,17 @@ export default function AuditLog() {
   const [entries, setEntries] = useState<AuditEntry[]>([]);
   const [filter, setFilter] = useState<"all" | "blocked" | "allowed">("all");
   const [loading, setLoading] = useState(true);
+  const [page, setPage] = useState(0);
+  const [hasMore, setHasMore] = useState(false);
+  const pageSize = 20;
 
   useEffect(() => {
-    fetch("/api/dashboard/audit?limit=50")
+    setLoading(true);
+    fetch(`/api/dashboard/audit?limit=${pageSize}&offset=${page * pageSize}&filter=${filter}`)
       .then((r) => r.json())
       .then((data) => {
         setEntries(data.entries || []);
+        setHasMore(data.hasMore || false);
         setLoading(false);
       })
       .catch(() => {
@@ -61,9 +66,10 @@ export default function AuditLog() {
             ],
           },
         ]);
+        setHasMore(false);
         setLoading(false);
       });
-  }, []);
+  }, [page, filter]);
 
   const filtered = entries.filter((e) => {
     if (filter === "blocked") return e.action === "block";
@@ -117,6 +123,7 @@ export default function AuditLog() {
           Loading audit log...
         </div>
       ) : (
+        <>
         <div className="bg-gray-900/50 rounded-xl border border-gray-800 overflow-hidden">
           <table className="w-full">
             <thead>
@@ -190,6 +197,29 @@ export default function AuditLog() {
             </div>
           )}
         </div>
+
+        <div className="flex items-center justify-between mt-4">
+          <div className="text-sm text-gray-400">
+            Showing {page * pageSize + 1}–{Math.min((page + 1) * pageSize, filtered.length)} of {filtered.length}
+          </div>
+          <div className="flex gap-2">
+            <button
+              onClick={() => setPage(Math.max(0, page - 1))}
+              disabled={page === 0}
+              className="px-3 py-1.5 rounded-lg text-sm font-medium bg-gray-800 text-gray-300 hover:bg-gray-700 disabled:opacity-30 disabled:cursor-not-allowed"
+            >
+              Previous
+            </button>
+            <button
+              onClick={() => setPage(page + 1)}
+              disabled={!hasMore}
+              className="px-3 py-1.5 rounded-lg text-sm font-medium bg-gray-800 text-gray-300 hover:bg-gray-700 disabled:opacity-30 disabled:cursor-not-allowed"
+            >
+              Next
+            </button>
+          </div>
+        </div>
+        </>
       )}
     </div>
   );

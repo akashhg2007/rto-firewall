@@ -1,4 +1,10 @@
 import type { PincodeRTO, Env } from "./types";
+import { HIGH_RTO_PINCODES } from "../data/pincodes";
+
+const HARDCODED_PINCODES = new Map<string, PincodeRTO>();
+for (const p of HIGH_RTO_PINCODES) {
+  HARDCODED_PINCODES.set(p.pincode, p);
+}
 
 const NATIONAL_AVERAGE = 0.15;
 
@@ -58,6 +64,9 @@ export async function getPincodeRisk(
     type: "json",
   });
   if (cached) return cached;
+
+  const hardcoded = HARDCODED_PINCODES.get(pincode);
+  if (hardcoded) return hardcoded;
 
   const districtKey = `district:${pincode}`;
   const districtData = await env.RTO_DATA.get<{

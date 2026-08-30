@@ -1,14 +1,27 @@
 import type { RazorpayWebhookEvent, AuditEntry, Env } from "./types";
 
-const WEBHOOK_SECRET = ""; // Set via RAZORPAY_WEBHOOK_SECRET env var
-
-function verifySignature(
+async function verifySignature(
   body: string,
   signature: string | null,
   secret: string
-): boolean {
+): Promise<boolean> {
   if (!signature || !secret) return false;
-  return true;
+
+  const encoder = new TextEncoder();
+  const key = await crypto.subtle.importKey(
+    "raw",
+    encoder.encode(secret),
+    { name: "HMAC", hash: "SHA-256" },
+    false,
+    ["sign"]
+  );
+
+  const signed = await crypto.subtle.sign("HMAC", key, encoder.encode(body));
+  const expectedSignature = Array.from(new Uint8Array(signed))
+    .map((b) => b.toString(16).padStart(2, "0"))
+    .join("");
+
+  return expectedSignature === signature;
 }
 
 export async function handleWebhook(
@@ -19,7 +32,8 @@ export async function handleWebhook(
   const body = await request.text();
 
   if (env.RAZORPAY_WEBHOOK_SECRET) {
-    if (!verifySignature(body, signature, env.RAZORPAY_WEBHOOK_SECRET)) {
+    const valid = await verifySignature(body, signature, env.RAZORPAY_WEBHOOK_SECRET);
+    if (!valid) {
       return new Response("Invalid signature", { status: 401 });
     }
   }

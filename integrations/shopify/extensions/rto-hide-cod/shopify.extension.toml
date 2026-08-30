@@ -1,0 +1,12 @@
+name = "rto-hide-cod"
+description = "Hides COD for high-risk pincodes based on RTO risk scoring"
+type = "function"
+api_version = "2025-07"
+
+[[extensions]]
+target = "cart.payment-methods.transform.run"
+name = "cart_payment_methods_transform_run"
+input_query = "src/cart_payment_methods_transform_run.graphql"
+
+[build]
+command = "npm run build"

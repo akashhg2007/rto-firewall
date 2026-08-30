@@ -218,28 +218,67 @@ async function handleGetAudit(
   const url = new URL(request.url);
   const limit = parseInt(url.searchParams.get("limit") || "50", 10);
   const offset = parseInt(url.searchParams.get("offset") || "0", 10);
+  const filter = url.searchParams.get("filter") || "all";
 
   const list = await env.RTO_DATA.list({
     prefix: "audit:",
-    limit: limit + offset,
+    limit: limit + offset + 100,
   });
 
   const entries: AuditEntry[] = [];
-  for (let i = offset; i < Math.min(list.keys.length, offset + limit); i++) {
-    const data = await env.RTO_DATA.get<AuditEntry>(list.keys[i].name, {
+  for (const key of list.keys) {
+    const data = await env.RTO_DATA.get<AuditEntry>(key.name, {
       type: "json",
     });
-    if (data) entries.push(data);
+    if (data) {
+      if (filter === "blocked" && data.action !== "block") continue;
+      if (filter === "allowed" && data.action !== "allow") continue;
+      entries.push(data);
+    }
   }
 
   entries.sort((a, b) => b.timestamp - a.timestamp);
+  const paginated = entries.slice(offset, offset + limit);
 
   return json({
-    entries,
-    total: list.keys.length,
+    entries: paginated,
+    total: entries.length,
     limit,
     offset,
+    hasMore: offset + limit < entries.length,
   });
+}
+
+async function handleCSVUpload(
+  request: Request,
+  env: Env
+): Promise<Response> {
+  const body = await request.json();
+  const { pincodes, merchantId } = body as {
+    pincodes: Array<{ pincode: string; rtoRate: number; district?: string; state?: string }>;
+    merchantId?: string;
+  };
+
+  if (!pincodes || !Array.isArray(pincodes)) {
+    return json({ error: "pincodes array is required" }, 400);
+  }
+
+  let uploaded = 0;
+  for (const pin of pincodes) {
+    if (!pin.pincode || typeof pin.rtoRate !== "number") continue;
+
+    const data = {
+      pincode: pin.pincode,
+      district: pin.district || "Unknown",
+      state: pin.state || "Unknown",
+      rtoRate: Math.min(Math.max(pin.rtoRate, 0), 1),
+    };
+
+    await env.RTO_DATA.put(`pincode:${pin.pincode}`, JSON.stringify(data));
+    uploaded++;
+  }
+
+  return json({ success: true, uploaded, total: pincodes.length });
 }
 
 export default {
@@ -269,6 +308,9 @@ export default {
       }
       if (path === "/api/dashboard/audit" && request.method === "GET") {
         return await handleGetAudit(request, env);
+      }
+      if (path === "/api/upload/pincodes" && request.method === "POST") {
+        return await handleCSVUpload(request, env);
       }
       if (path === "/api/health") {
         return json({ status: "ok", timestamp: Date.now() });

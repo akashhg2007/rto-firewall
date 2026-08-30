@@ -1,0 +1,21 @@
+query CartPaymentMethodsTransformRunInput {
+  cart {
+    cost {
+      totalAmount {
+        amount
+      }
+    }
+    buyerIdentity {
+      deliveryAddress {
+        zipCode
+        city
+        provinceCode
+        countryCode
+      }
+    }
+  }
+  paymentMethods {
+    id
+    name
+  }
+}

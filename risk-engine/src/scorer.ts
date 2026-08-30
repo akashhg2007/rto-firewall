@@ -110,6 +110,18 @@ function getProductRisk(
   return 0.3;
 }
 
+async function getMerchantConfig(
+  merchantId: string | undefined,
+  env: Env
+): Promise<Record<string, number> | undefined> {
+  if (!merchantId) return undefined;
+  const config = await env.RTO_DATA.get<{ productRiskMap: Record<string, number> }>(
+    `config:${merchantId}`,
+    { type: "json" }
+  );
+  return config?.productRiskMap;
+}
+
 export async function calculateRisk(
   input: RiskInput,
   env: Env
@@ -164,7 +176,8 @@ export async function calculateRisk(
     });
   }
 
-  const productScore = getProductRisk(input.productCategory);
+  const productRiskMap = await getMerchantConfig(input.merchantId, env);
+  const productScore = getProductRisk(input.productCategory, productRiskMap);
   if (productScore > 0.4) {
     reasons.push({
       code: "high_risk_product",

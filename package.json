@@ -1,0 +1,17 @@
+{
+  "name": "rto-firewall",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev:engine\" \"npm run dev:dashboard\" \"npm run dev:demo\"",
+    "dev:engine": "cd risk-engine && npx wrangler dev --port 8787",
+    "dev:dashboard": "cd dashboard && npx vite --port 5173",
+    "dev:demo": "cd demo && npx serve -l 3000",
+    "test": "cd risk-engine && npx tsx scripts/test-scorer.ts",
+    "typecheck": "cd risk-engine && npx tsc --noEmit && cd ../dashboard && npx tsc --noEmit",
+    "build": "cd dashboard && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0",
+    "serve": "^14.0.0"
+  }
+}

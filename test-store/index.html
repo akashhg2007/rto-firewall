@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOIR — Premium Streetwear</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            noir: { 50:'#f7f7f7', 100:'#e3e3e3', 200:'#c8c8c8', 300:'#a4a4a4', 400:'#818181', 500:'#666666', 600:'#515151', 700:'#434343', 800:'#383838', 900:'#181818', 950:'#0a0a0a' },
+            accent: { DEFAULT:'#c8ff00', dark:'#a8d600' },
+          },
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'], display: ['Space Grotesk', 'system-ui', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family:'Inter',sans-serif; background:#0a0a0a; color:#e3e3e3; }
+    .font-display { font-family:'Space Grotesk',sans-serif; }
+    .glass { background:rgba(255,255,255,0.03); backdrop-filter:blur(20px); border:1px solid rgba(255,255,255,0.06); }
+    .glass-hover:hover { background:rgba(255,255,255,0.06); border-color:rgba(255,255,255,0.12); }
+    .accent-glow { box-shadow:0 0 30px rgba(200,255,0,0.15); }
+    .risk-bar { transition: width 0.8s cubic-bezier(0.4,0,0.2,1), background-color 0.5s ease; }
+    .fade-up { animation: fadeUp 0.6s ease-out both; }
+    .fade-in { animation: fadeIn 0.4s ease-out both; }
+    .slide-in { animation: slideIn 0.5s ease-out both; }
+    @keyframes fadeUp { from { opacity:0; transform:translateY(20px); } to { opacity:1; transform:translateY(0); } }
+    @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+    @keyframes slideIn { from { opacity:0; transform:translateX(-10px); } to { opacity:1; transform:translateX(0); } }
+    @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:0.5; } }
+    .pulse { animation: pulse 2s ease-in-out infinite; }
+    .checkout-step { transition: all 0.3s ease; }
+    .checkout-step.active { border-color: rgba(200,255,0,0.4); background: rgba(200,255,0,0.03); }
+    .payment-option { transition: all 0.3s ease; cursor:pointer; }
+    .payment-option:hover { border-color: rgba(255,255,255,0.15); }
+    .payment-option.selected { border-color: rgba(200,255,0,0.5); background: rgba(200,255,0,0.05); }
+    .payment-option.disabled { opacity:0.3; pointer-events:none; }
+    .risk-indicator { transition: all 0.6s cubic-bezier(0.4,0,0.2,1); }
+    input:focus { outline:none; border-color: rgba(200,255,0,0.5) !important; box-shadow: 0 0 0 3px rgba(200,255,0,0.1); }
+    input.error { border-color: rgba(239,68,68,0.5) !important; }
+    .tooltip { position:relative; }
+    .tooltip::after { content:attr(data-tip); position:absolute; bottom:100%; left:50%; transform:translateX(-50%); background:#181818; color:#a4a4a4; padding:6px 10px; border-radius:6px; font-size:11px; white-space:nowrap; opacity:0; pointer-events:none; transition:opacity 0.2s; border:1px solid rgba(255,255,255,0.08); }
+    .tooltip:hover::after { opacity:1; }
+    .strike { text-decoration:line-through; opacity:0.4; }
+    ::-webkit-scrollbar { width:6px; }
+    ::-webkit-scrollbar-track { background:transparent; }
+    ::-webkit-scrollbar-thumb { background:rgba(255,255,255,0.1); border-radius:3px; }
+  </style>
+</head>
+<body class="min-h-screen">
+
+  <!-- Nav -->
+  <nav class="fixed top-0 w-full z-50 glass border-b border-white/5">
+    <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
+          <span class="text-noir-950 font-display font-bold text-sm">N</span>
+        </div>
+        <span class="font-display font-semibold text-lg tracking-tight">NOIR</span>
+      </div>
+      <div class="hidden md:flex items-center gap-8 text-sm text-noir-400">
+        <a href="#" class="hover:text-white transition">New Arrivals</a>
+        <a href="#" class="hover:text-white transition">Collections</a>
+        <a href="#" class="hover:text-white transition">About</a>
+      </div>
+      <div class="flex items-center gap-4">
+        <button onclick="toggleCart()" class="relative p-2 hover:bg-white/5 rounded-lg transition">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+          <span id="cart-count" class="absolute -top-1 -right-1 w-4 h-4 bg-accent text-noir-950 text-[10px] font-bold rounded-full flex items-center justify-center hidden">0</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero / Product -->
+  <main class="pt-24 pb-20">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid lg:grid-cols-2 gap-12 items-start">
+
+        <!-- Product Images -->
+        <div class="fade-up space-y-4">
+          <div class="aspect-square bg-noir-900 rounded-2xl overflow-hidden relative group">
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div class="text-center">
+                <div class="w-32 h-40 bg-noir-800 rounded-xl mx-auto mb-4 flex items-center justify-center border border-white/5">
+                  <svg class="w-16 h-16 text-noir-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+                </div>
+                <p class="text-noir-500 text-sm">NOIR Essential Hoodie</p>
+              </div>
+            </div>
+            <div class="absolute top-4 left-4 px-3 py-1 bg-accent text-noir-950 text-xs font-semibold rounded-full">NEW</div>
+          </div>
+          <div class="grid grid-cols-4 gap-3">
+            <div class="aspect-square bg-noir-900 rounded-xl border-2 border-accent/40 flex items-center justify-center cursor-pointer"><div class="w-8 h-10 bg-noir-800 rounded"></div></div>
+            <div class="aspect-square bg-noir-900 rounded-xl border border-white/5 flex items-center justify-center cursor-pointer hover:border-white/20 transition"><div class="w-8 h-10 bg-noir-800 rounded"></div></div>
+            <div class="aspect-square bg-noir-900 rounded-xl border border-white/5 flex items-center justify-center cursor-pointer hover:border-white/20 transition"><div class="w-8 h-10 bg-noir-800 rounded"></div></div>
+            <div class="aspect-square bg-noir-900 rounded-xl border border-white/5 flex items-center justify-center cursor-pointer hover:border-white/20 transition"><div class="w-8 h-10 bg-noir-800 rounded"></div></div>
+          </div>
+        </div>
+
+        <!-- Product Details + Checkout -->
+        <div class="space-y-6 fade-up" style="animation-delay:0.1s">
+          <div>
+            <p class="text-accent text-sm font-medium tracking-wider uppercase mb-2">Essential Collection</p>
+            <h1 class="font-display text-3xl md:text-4xl font-bold text-white mb-3">Heavyweight Oversized Hoodie</h1>
+            <p class="text-noir-400 leading-relaxed">Premium 400GSM French terry cotton. Dropped shoulders, oversized fit. Built for comfort, designed for the streets.</p>
+          </div>
+
+          <div class="flex items-baseline gap-3">
+            <span class="text-3xl font-display font-bold text-white">₹2,499</span>
+            <span class="text-lg text-noir-500 strike">₹3,999</span>
+            <span class="px-2 py-0.5 bg-emerald-500/10 text-emerald-400 text-xs font-semibold rounded">37% OFF</span>
+          </div>
+
+          <!-- Size Selector -->
+          <div>
+            <p class="text-sm text-noir-400 mb-3">Size</p>
+            <div class="flex gap-2">
+              <button class="w-12 h-12 rounded-lg border border-white/10 text-sm font-medium hover:border-white/30 transition">XS</button>
+              <button class="w-12 h-12 rounded-lg border border-white/10 text-sm font-medium hover:border-white/30 transition">S</button>
+              <button class="w-12 h-12 rounded-lg border border-accent/50 bg-accent/5 text-accent text-sm font-medium">M</button>
+              <button class="w-12 h-12 rounded-lg border border-white/10 text-sm font-medium hover:border-white/30 transition">L</button>
+              <button class="w-12 h-12 rounded-lg border border-white/10 text-sm font-medium hover:border-white/30 transition">XL</button>
+            </div>
+          </div>
+
+          <!-- Color -->
+          <div>
+            <p class="text-sm text-noir-400 mb-3">Color — <span class="text-white">Charcoal Black</span></p>
+            <div class="flex gap-3">
+              <div class="w-8 h-8 rounded-full bg-noir-900 border-2 border-accent cursor-pointer"></div>
+              <div class="w-8 h-8 rounded-full bg-stone-200 border-2 border-transparent cursor-pointer hover:border-white/30"></div>
+              <div class="w-8 h-8 rounded-full bg-emerald-800 border-2 border-transparent cursor-pointer hover:border-white/30"></div>
+            </div>
+          </div>
+
+          <hr class="border-white/5">
+
+          <!-- Risk Score Live Widget -->
+          <div id="risk-widget" class="glass rounded-xl p-4 space-y-3 hidden">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <div id="risk-dot" class="w-2 h-2 rounded-full bg-emerald-400"></div>
+                <span class="text-sm font-medium text-white">Risk Assessment</span>
+              </div>
+              <span id="risk-score-badge" class="text-sm font-mono font-bold text-emerald-400">0%</span>
+            </div>
+            <div class="w-full h-1.5 bg-noir-800 rounded-full overflow-hidden">
+              <div id="risk-bar" class="risk-bar h-full rounded-full bg-emerald-400" style="width:0%"></div>
+            </div>
+            <div id="risk-reasons" class="space-y-1.5"></div>
+          </div>
+
+          <!-- Checkout Form -->
+          <div id="checkout-section" class="space-y-4">
+            <h3 class="font-display font-semibold text-white">Checkout</h3>
+
+            <div class="space-y-3">
+              <div>
+                <label class="text-xs text-noir-400 mb-1.5 block">Full Name</label>
+                <input id="input-name" type="text" placeholder="Rahul Kumar" class="w-full bg-noir-900 border border-white/10 rounded-lg px-4 py-3 text-sm text-white placeholder:text-noir-600 transition" oninput="debounceScore()">
+              </div>
+              <div>
+                <label class="text-xs text-noir-400 mb-1.5 block">Email</label>
+                <input id="input-email" type="email" placeholder="rahul@example.com" class="w-full bg-noir-900 border border-white/10 rounded-lg px-4 py-3 text-sm text-white placeholder:text-noir-600 transition">
+              </div>
+              <div>
+                <label class="text-xs text-noir-400 mb-1.5 block">Phone</label>
+                <input id="input-phone" type="tel" placeholder="+91 98765 43210" class="w-full bg-noir-900 border border-white/10 rounded-lg px-4 py-3 text-sm text-white placeholder:text-noir-600 transition">
+              </div>
+              <div>
+                <label class="text-xs text-noir-400 mb-1.5 block">Pincode</label>
+                <input id="input-pincode" type="text" placeholder="110001" maxlength="6" class="w-full bg-noir-900 border border-white/10 rounded-lg px-4 py-3 text-sm text-white placeholder:text-noir-600 transition font-mono" oninput="debounceScore()">
+                <p id="pincode-error" class="text-xs text-red-400 mt-1 hidden">Enter a valid 6-digit pincode</p>
+              </div>
+              <div>
+                <label class="text-xs text-noir-400 mb-1.5 block">Address</label>
+                <textarea id="input-address" rows="2" placeholder="House no, street, city" class="w-full bg-noir-900 border border-white/10 rounded-lg px-4 py-3 text-sm text-white placeholder:text-noir-600 transition resize-none"></textarea>
+              </div>
+            </div>
+
+            <!-- Payment Methods -->
+            <div class="space-y-3 pt-2">
+              <p class="text-sm font-medium text-white">Payment Method</p>
+
+              <!-- Prepaid -->
+              <div id="pay-prepaid" class="payment-option selected glass rounded-xl p-4" onclick="selectPayment('prepaid')">
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center gap-3">
+                    <div class="w-5 h-5 rounded-full border-2 border-accent flex items-center justify-center">
+                      <div class="w-2.5 h-2.5 rounded-full bg-accent"></div>
+                    </div>
+                    <div>
+                      <p class="text-sm font-medium text-white">Prepaid (UPI / Card / Wallet)</p>
+                      <p class="text-xs text-noir-400 mt-0.5">Instant confirmation + extra discount</p>
+                    </div>
+                  </div>
+                  <div id="prepaid-badge" class="px-2.5 py-1 bg-accent/10 text-accent text-xs font-semibold rounded-full">SAVE 10%</div>
+                </div>
+                <div id="prepaid-savings" class="mt-3 pt-3 border-t border-white/5 flex items-center justify-between">
+                  <span class="text-xs text-noir-400">You save with prepaid</span>
+                  <span class="text-sm font-semibold text-accent">−₹250</span>
+                </div>
+              </div>
+
+              <!-- COD -->
+              <div id="pay-cod" class="payment-option glass rounded-xl p-4" onclick="selectPayment('cod')">
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center gap-3">
+                    <div id="cod-radio" class="w-5 h-5 rounded-full border-2 border-noir-500 flex items-center justify-center">
+                    </div>
+                    <div>
+                      <p class="text-sm font-medium text-white">Cash on Delivery</p>
+                      <p class="text-xs text-noir-400 mt-0.5">Pay when you receive</p>
+                    </div>
+                  </div>
+                  <div id="cod-status" class="px-2.5 py-1 bg-emerald-500/10 text-emerald-400 text-xs font-semibold rounded-full">AVAILABLE</div>
+                </div>
+                <div id="cod-blocked-msg" class="mt-3 pt-3 border-t border-white/5 hidden">
+                  <div class="flex items-center gap-2">
+                    <svg class="w-4 h-4 text-amber-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>
+                    <p class="text-xs text-amber-400">COD unavailable for this pincode. Choose prepaid for <span class="font-semibold text-accent">10% discount</span>.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Order Summary -->
+            <div class="glass rounded-xl p-4 space-y-3">
+              <p class="text-sm font-medium text-white">Order Summary</p>
+              <div class="flex justify-between text-sm">
+                <span class="text-noir-400">Hoodie (M × 1)</span>
+                <span class="text-white">₹2,499</span>
+              </div>
+              <div id="prepaid-discount-row" class="flex justify-between text-sm hidden">
+                <span class="text-accent">Prepaid discount (10%)</span>
+                <span class="text-accent">−₹250</span>
+              </div>
+              <div class="flex justify-between text-sm">
+                <span class="text-noir-400">Shipping</span>
+                <span class="text-emerald-400">FREE</span>
+              </div>
+              <hr class="border-white/5">
+              <div class="flex justify-between">
+                <span class="font-medium text-white">Total</span>
+                <span id="total-price" class="font-display font-bold text-xl text-white">₹2,499</span>
+              </div>
+            </div>
+
+            <!-- CTA -->
+            <button id="cta-btn" onclick="placeOrder()" class="w-full py-4 bg-accent text-noir-950 font-display font-bold text-lg rounded-xl hover:bg-accent-dark transition-all duration-300 accent-glow">
+              Place Order — ₹2,499
+            </button>
+            <p class="text-center text-xs text-noir-500">Secured by RTO Firewall × Razorpay</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Success Modal -->
+  <div id="success-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/80 backdrop-blur-sm">
+    <div class="glass rounded-2xl p-8 max-w-md mx-4 text-center space-y-4 fade-up">
+      <div class="w-16 h-16 bg-emerald-500/10 rounded-full flex items-center justify-center mx-auto">
+        <svg class="w-8 h-8 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+      </div>
+      <h3 class="font-display text-2xl font-bold text-white">Order Placed!</h3>
+      <p id="success-msg" class="text-noir-400 text-sm"></p>
+      <div id="success-details" class="glass rounded-lg p-4 text-left space-y-2 text-sm"></div>
+      <button onclick="closeModal()" class="w-full py-3 bg-white/5 border border-white/10 text-white rounded-xl hover:bg-white/10 transition font-medium">Continue Shopping</button>
+    </div>
+  </div>
+
+  <script>
+    const API = 'https://rto-firewall.akashhga.workers.dev';
+    let selectedPayment = 'prepaid';
+    let currentScore = null;
+    let debounceTimer = null;
+
+    function debounceScore() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(scoreInput, 600);
+    }
+
+    async function scoreInput() {
+      const name = document.getElementById('input-name').value.trim();
+      const pincode = document.getElementById('input-pincode').value.trim();
+
+      if (pincode.length !== 6 || !/^\d{6}$/.test(pincode)) {
+        document.getElementById('pincode-error').classList.remove('hidden');
+        document.getElementById('risk-widget').classList.add('hidden');
+        return;
+      }
+      document.getElementById('pincode-error').classList.add('hidden');
+
+      if (!name && !pincode) return;
+
+      try {
+        const res = await fetch(`${API}/api/score`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            name: name || undefined,
+            pincode,
+            productCategory: 'shoes',
+            device: navigator.userAgent
+          })
+        });
+        const data = await res.json();
+        currentScore = data;
+        updateRiskWidget(data);
+        updatePaymentOptions(data);
+      } catch (e) {
+        console.error('Score error:', e);
+      }
+    }
+
+    function updateRiskWidget(data) {
+      const widget = document.getElementById('risk-widget');
+      const bar = document.getElementById('risk-bar');
+      const badge = document.getElementById('risk-score-badge');
+      const dot = document.getElementById('risk-dot');
+      const reasons = document.getElementById('risk-reasons');
+
+      widget.classList.remove('hidden');
+      widget.classList.add('fade-in');
+
+      badge.textContent = data.score + '%';
+      bar.style.width = data.score + '%';
+
+      if (data.score <= 30) {
+        bar.className = 'risk-bar h-full rounded-full bg-emerald-400';
+        badge.className = 'text-sm font-mono font-bold text-emerald-400';
+        dot.className = 'w-2 h-2 rounded-full bg-emerald-400';
+      } else if (data.score <= 60) {
+        bar.className = 'risk-bar h-full rounded-full bg-amber-400';
+        badge.className = 'text-sm font-mono font-bold text-amber-400';
+        dot.className = 'w-2 h-2 rounded-full bg-amber-400';
+      } else {
+        bar.className = 'risk-bar h-full rounded-full bg-red-400';
+        badge.className = 'text-sm font-mono font-bold text-red-400';
+        dot.className = 'w-2 h-2 rounded-full bg-red-400';
+      }
+
+      reasons.innerHTML = '';
+      if (data.reasons && data.reasons.length > 0) {
+        data.reasons.forEach(r => {
+          const el = document.createElement('div');
+          el.className = 'flex items-center gap-2 slide-in';
+          el.innerHTML = `
+            <svg class="w-3 h-3 text-noir-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <span class="text-xs text-noir-400">${r.label}</span>
+          `;
+          reasons.appendChild(el);
+        });
+      }
+    }
+
+    function updatePaymentOptions(data) {
+      const cod = document.getElementById('pay-cod');
+      const codStatus = document.getElementById('cod-status');
+      const codBlocked = document.getElementById('cod-blocked-msg');
+      const codRadio = document.getElementById('cod-radio');
+
+      if (data.action === 'block') {
+        cod.classList.add('disabled');
+        codStatus.textContent = 'UNAVAILABLE';
+        codStatus.className = 'px-2.5 py-1 bg-red-500/10 text-red-400 text-xs font-semibold rounded-full';
+        codBlocked.classList.remove('hidden');
+        if (selectedPayment === 'cod') {
+          selectPayment('prepaid');
+        }
+      } else {
+        cod.classList.remove('disabled');
+        codStatus.textContent = 'AVAILABLE';
+        codStatus.className = 'px-2.5 py-1 bg-emerald-500/10 text-emerald-400 text-xs font-semibold rounded-full';
+        codBlocked.classList.add('hidden');
+      }
+    }
+
+    function selectPayment(method) {
+      if (method === 'cod' && currentScore && currentScore.action === 'block') return;
+
+      selectedPayment = method;
+      const prepaid = document.getElementById('pay-prepaid');
+      const cod = document.getElementById('pay-cod');
+      const prepaidDiscount = document.getElementById('prepaid-discount-row');
+      const prepaidBadge = document.getElementById('prepaid-badge');
+      const totalEl = document.getElementById('total-price');
+      const ctaBtn = document.getElementById('cta-btn');
+
+      if (method === 'prepaid') {
+        prepaid.classList.add('selected');
+        cod.classList.remove('selected');
+        document.getElementById('pay-prepaid').querySelector('.rounded-full').innerHTML = '<div class="w-2.5 h-2.5 rounded-full bg-accent"></div>';
+        codRadio.innerHTML = '';
+        prepaidDiscount.classList.remove('hidden');
+        prepaidBadge.classList.remove('hidden');
+        totalEl.textContent = '₹2,249';
+        ctaBtn.textContent = 'Pay ₹2,249 via UPI';
+      } else {
+        cod.classList.add('selected');
+        prepaid.classList.remove('selected');
+        codRadio.innerHTML = '<div class="w-2.5 h-2.5 rounded-full bg-accent"></div>';
+        document.getElementById('pay-prepaid').querySelector('.rounded-full').innerHTML = '';
+        prepaidDiscount.classList.add('hidden');
+        prepaidBadge.classList.add('hidden');
+        totalEl.textContent = '₹2,499';
+        ctaBtn.textContent = 'Place Order — ₹2,499';
+      }
+    }
+
+    async function placeOrder() {
+      const name = document.getElementById('input-name').value.trim();
+      const pincode = document.getElementById('input-pincode').value.trim();
+      const email = document.getElementById('input-email').value.trim();
+
+      if (!name || !pincode) {
+        alert('Please fill in your name and pincode');
+        return;
+      }
+
+      const btn = document.getElementById('cta-btn');
+      btn.textContent = 'Processing...';
+      btn.disabled = true;
+
+      // Score if not already done
+      if (!currentScore || currentScore.breakdown?.pincode === undefined) {
+        await scoreInput();
+      }
+
+      setTimeout(() => {
+        const modal = document.getElementById('success-modal');
+        const msg = document.getElementById('success-msg');
+        const details = document.getElementById('success-details');
+
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+
+        msg.textContent = `Thank you, ${name}! Your order has been placed successfully.`;
+
+        const riskLevel = currentScore ? currentScore.score : 0;
+        const action = currentScore ? currentScore.action : 'allow';
+        const payment = selectedPayment === 'prepaid' ? 'Prepaid (UPI)' : 'Cash on Delivery';
+        const amount = selectedPayment === 'prepaid' ? '₹2,249' : '₹2,499';
+
+        details.innerHTML = `
+          <div class="flex justify-between"><span class="text-noir-400">Order ID</span><span class="text-white font-mono">NOIR-${Date.now().toString(36).toUpperCase()}</span></div>
+          <div class="flex justify-between"><span class="text-noir-400">Payment</span><span class="text-white">${payment}</span></div>
+          <div class="flex justify-between"><span class="text-noir-400">Amount</span><span class="text-white font-semibold">${amount}</span></div>
+          <div class="flex justify-between"><span class="text-noir-400">Pincode</span><span class="text-white font-mono">${pincode}</span></div>
+          <div class="flex justify-between"><span class="text-noir-400">Risk Score</span><span class="${riskLevel > 60 ? 'text-red-400' : riskLevel > 30 ? 'text-amber-400' : 'text-emerald-400'} font-mono font-bold">${riskLevel}%</span></div>
+          <div class="flex justify-between"><span class="text-noir-400">RTO Risk</span><span class="${action === 'block' ? 'text-red-400' : 'text-emerald-400'}">${action === 'block' ? 'HIGH — COD blocked' : 'LOW — All options available'}</span></div>
+        `;
+
+        btn.textContent = 'Place Order';
+        btn.disabled = false;
+      }, 1500);
+    }
+
+    function closeModal() {
+      const modal = document.getElementById('success-modal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    // Score on page load for default pincode
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        document.getElementById('input-name').value = '';
+        document.getElementById('input-pincode').value = '';
+      }, 100);
+    });
+  </script>
+</body>
+</html>

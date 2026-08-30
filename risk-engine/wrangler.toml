@@ -1,0 +1,15 @@
+name = "rto-firewall"
+main = "src/index.ts"
+compatibility_date = "2025-07-10"
+compatibility_flags = ["nodejs_compat"]
+
+observability = { enabled = true }
+
+kv_namespaces = [
+  { binding = "RTO_DATA", id = "YOUR_KV_NAMESPACE_ID" }
+]
+
+[vars]
+RISK_THRESHOLD = "75"
+PREPAID_DISCOUNT_PERCENT = "10"
+NATIONAL_RTO_AVERAGE = "0.15"

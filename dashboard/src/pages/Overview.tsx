@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { API_BASE } from "../config";
 
 interface Stats {
   analyzed: number;
@@ -14,7 +15,7 @@ export default function Overview() {
   const [stats, setStats] = useState<Stats | null>(null);
 
   useEffect(() => {
-    fetch("/api/dashboard/stats")
+    fetch(`${API_BASE}/api/dashboard/stats`)
       .then((r) => r.json())
       .then(setStats)
       .catch(() =>

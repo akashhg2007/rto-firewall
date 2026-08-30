@@ -1,0 +1,3782 @@
+[
+  {
+    "key": "pincode:847101",
+    "value": "{\"pincode\":\"847101\",\"district\":\"Darbhanga\",\"state\":\"Bihar\",\"rtoRate\":0.41}"
+  },
+  {
+    "key": "district:847101",
+    "value": "{\"district\":\"Darbhanga\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:847102",
+    "value": "{\"pincode\":\"847102\",\"district\":\"Darbhanga\",\"state\":\"Bihar\",\"rtoRate\":0.39}"
+  },
+  {
+    "key": "district:847102",
+    "value": "{\"district\":\"Darbhanga\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:847103",
+    "value": "{\"pincode\":\"847103\",\"district\":\"Darbhanga\",\"state\":\"Bihar\",\"rtoRate\":0.38}"
+  },
+  {
+    "key": "district:847103",
+    "value": "{\"district\":\"Darbhanga\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:847104",
+    "value": "{\"pincode\":\"847104\",\"district\":\"Darbhanga\",\"state\":\"Bihar\",\"rtoRate\":0.4}"
+  },
+  {
+    "key": "district:847104",
+    "value": "{\"district\":\"Darbhanga\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:847105",
+    "value": "{\"pincode\":\"847105\",\"district\":\"Darbhanga\",\"state\":\"Bihar\",\"rtoRate\":0.37}"
+  },
+  {
+    "key": "district:847105",
+    "value": "{\"district\":\"Darbhanga\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:854301",
+    "value": "{\"pincode\":\"854301\",\"district\":\"Araria\",\"state\":\"Bihar\",\"rtoRate\":0.38}"
+  },
+  {
+    "key": "district:854301",
+    "value": "{\"district\":\"Araria\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:854302",
+    "value": "{\"pincode\":\"854302\",\"district\":\"Araria\",\"state\":\"Bihar\",\"rtoRate\":0.36}"
+  },
+  {
+    "key": "district:854302",
+    "value": "{\"district\":\"Araria\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:854303",
+    "value": "{\"pincode\":\"854303\",\"district\":\"Araria\",\"state\":\"Bihar\",\"rtoRate\":0.35}"
+  },
+  {
+    "key": "district:854303",
+    "value": "{\"district\":\"Araria\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:855101",
+    "value": "{\"pincode\":\"855101\",\"district\":\"Kishanganj\",\"state\":\"Bihar\",\"rtoRate\":0.36}"
+  },
+  {
+    "key": "district:855101",
+    "value": "{\"district\":\"Kishanganj\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:855102",
+    "value": "{\"pincode\":\"855102\",\"district\":\"Kishanganj\",\"state\":\"Bihar\",\"rtoRate\":0.34}"
+  },
+  {
+    "key": "district:855102",
+    "value": "{\"district\":\"Kishanganj\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:852101",
+    "value": "{\"pincode\":\"852101\",\"district\":\"Supaul\",\"state\":\"Bihar\",\"rtoRate\":0.35}"
+  },
+  {
+    "key": "district:852101",
+    "value": "{\"district\":\"Supaul\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:852102",
+    "value": "{\"pincode\":\"852102\",\"district\":\"Supaul\",\"state\":\"Bihar\",\"rtoRate\":0.33}"
+  },
+  {
+    "key": "district:852102",
+    "value": "{\"district\":\"Supaul\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:852106",
+    "value": "{\"pincode\":\"852106\",\"district\":\"Madhepura\",\"state\":\"Bihar\",\"rtoRate\":0.34}"
+  },
+  {
+    "key": "district:852106",
+    "value": "{\"district\":\"Madhepura\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:852107",
+    "value": "{\"pincode\":\"852107\",\"district\":\"Madhepura\",\"state\":\"Bihar\",\"rtoRate\":0.32}"
+  },
+  {
+    "key": "district:852107",
+    "value": "{\"district\":\"Madhepura\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:852108",
+    "value": "{\"pincode\":\"852108\",\"district\":\"Saharsa\",\"state\":\"Bihar\",\"rtoRate\":0.33}"
+  },
+  {
+    "key": "district:852108",
+    "value": "{\"district\":\"Saharsa\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:854101",
+    "value": "{\"pincode\":\"854101\",\"district\":\"Purnia\",\"state\":\"Bihar\",\"rtoRate\":0.32}"
+  },
+  {
+    "key": "district:854101",
+    "value": "{\"district\":\"Purnia\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:854102",
+    "value": "{\"pincode\":\"854102\",\"district\":\"Purnia\",\"state\":\"Bihar\",\"rtoRate\":0.3}"
+  },
+  {
+    "key": "district:854102",
+    "value": "{\"district\":\"Purnia\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:854103",
+    "value": "{\"pincode\":\"854103\",\"district\":\"Katihar\",\"state\":\"Bihar\",\"rtoRate\":0.31}"
+  },
+  {
+    "key": "district:854103",
+    "value": "{\"district\":\"Katihar\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:854104",
+    "value": "{\"pincode\":\"854104\",\"district\":\"Katihar\",\"state\":\"Bihar\",\"rtoRate\":0.29}"
+  },
+  {
+    "key": "district:854104",
+    "value": "{\"district\":\"Katihar\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:271301",
+    "value": "{\"pincode\":\"271301\",\"district\":\"Bahraich\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.29}"
+  },
+  {
+    "key": "district:271301",
+    "value": "{\"district\":\"Bahraich\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:271302",
+    "value": "{\"pincode\":\"271302\",\"district\":\"Bahraich\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.27}"
+  },
+  {
+    "key": "district:271302",
+    "value": "{\"district\":\"Bahraich\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:271303",
+    "value": "{\"pincode\":\"271303\",\"district\":\"Gonda\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.27}"
+  },
+  {
+    "key": "district:271303",
+    "value": "{\"district\":\"Gonda\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:271304",
+    "value": "{\"pincode\":\"271304\",\"district\":\"Gonda\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.25}"
+  },
+  {
+    "key": "district:271304",
+    "value": "{\"district\":\"Gonda\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:271305",
+    "value": "{\"pincode\":\"271305\",\"district\":\"Basti\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.26}"
+  },
+  {
+    "key": "district:271305",
+    "value": "{\"district\":\"Basti\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:271306",
+    "value": "{\"pincode\":\"271306\",\"district\":\"Basti\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.24}"
+  },
+  {
+    "key": "district:271306",
+    "value": "{\"district\":\"Basti\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:271307",
+    "value": "{\"pincode\":\"271307\",\"district\":\"Siddharthnagar\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.25}"
+  },
+  {
+    "key": "district:271307",
+    "value": "{\"district\":\"Siddharthnagar\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:271308",
+    "value": "{\"pincode\":\"271308\",\"district\":\"Siddharthnagar\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.23}"
+  },
+  {
+    "key": "district:271308",
+    "value": "{\"district\":\"Siddharthnagar\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:271309",
+    "value": "{\"pincode\":\"271309\",\"district\":\"Mahrajganj\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.24}"
+  },
+  {
+    "key": "district:271309",
+    "value": "{\"district\":\"Mahrajganj\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:271310",
+    "value": "{\"pincode\":\"271310\",\"district\":\"Mahrajganj\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.22}"
+  },
+  {
+    "key": "district:271310",
+    "value": "{\"district\":\"Mahrajganj\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:271311",
+    "value": "{\"pincode\":\"271311\",\"district\":\"Deoria\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.23}"
+  },
+  {
+    "key": "district:271311",
+    "value": "{\"district\":\"Deoria\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:271312",
+    "value": "{\"pincode\":\"271312\",\"district\":\"Deoria\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.21}"
+  },
+  {
+    "key": "district:271312",
+    "value": "{\"district\":\"Deoria\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:273001",
+    "value": "{\"pincode\":\"273001\",\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.22}"
+  },
+  {
+    "key": "district:273001",
+    "value": "{\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:273002",
+    "value": "{\"pincode\":\"273002\",\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.2}"
+  },
+  {
+    "key": "district:273002",
+    "value": "{\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:273003",
+    "value": "{\"pincode\":\"273003\",\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.19}"
+  },
+  {
+    "key": "district:273003",
+    "value": "{\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:276001",
+    "value": "{\"pincode\":\"276001\",\"district\":\"Azamgarh\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.21}"
+  },
+  {
+    "key": "district:276001",
+    "value": "{\"district\":\"Azamgarh\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:276002",
+    "value": "{\"pincode\":\"276002\",\"district\":\"Azamgarh\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.19}"
+  },
+  {
+    "key": "district:276002",
+    "value": "{\"district\":\"Azamgarh\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:276003",
+    "value": "{\"pincode\":\"276003\",\"district\":\"Mau\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.2}"
+  },
+  {
+    "key": "district:276003",
+    "value": "{\"district\":\"Mau\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:276101",
+    "value": "{\"pincode\":\"276101\",\"district\":\"Ballia\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.19}"
+  },
+  {
+    "key": "district:276101",
+    "value": "{\"district\":\"Ballia\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:276102",
+    "value": "{\"pincode\":\"276102\",\"district\":\"Ballia\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.17}"
+  },
+  {
+    "key": "district:276102",
+    "value": "{\"district\":\"Ballia\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:221001",
+    "value": "{\"pincode\":\"221001\",\"district\":\"Varanasi\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.16}"
+  },
+  {
+    "key": "district:221001",
+    "value": "{\"district\":\"Varanasi\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:221002",
+    "value": "{\"pincode\":\"221002\",\"district\":\"Varanasi\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.15}"
+  },
+  {
+    "key": "district:221002",
+    "value": "{\"district\":\"Varanasi\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:221003",
+    "value": "{\"pincode\":\"221003\",\"district\":\"Varanasi\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.14}"
+  },
+  {
+    "key": "district:221003",
+    "value": "{\"district\":\"Varanasi\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:221004",
+    "value": "{\"pincode\":\"221004\",\"district\":\"Varanasi\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.13}"
+  },
+  {
+    "key": "district:221004",
+    "value": "{\"district\":\"Varanasi\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:221005",
+    "value": "{\"pincode\":\"221005\",\"district\":\"Varanasi\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.12}"
+  },
+  {
+    "key": "district:221005",
+    "value": "{\"district\":\"Varanasi\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:226001",
+    "value": "{\"pincode\":\"226001\",\"district\":\"Lucknow\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:226001",
+    "value": "{\"district\":\"Lucknow\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:226002",
+    "value": "{\"pincode\":\"226002\",\"district\":\"Lucknow\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.09}"
+  },
+  {
+    "key": "district:226002",
+    "value": "{\"district\":\"Lucknow\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:226003",
+    "value": "{\"pincode\":\"226003\",\"district\":\"Lucknow\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.08}"
+  },
+  {
+    "key": "district:226003",
+    "value": "{\"district\":\"Lucknow\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:226004",
+    "value": "{\"pincode\":\"226004\",\"district\":\"Lucknow\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.08}"
+  },
+  {
+    "key": "district:226004",
+    "value": "{\"district\":\"Lucknow\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:226005",
+    "value": "{\"pincode\":\"226005\",\"district\":\"Lucknow\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.07}"
+  },
+  {
+    "key": "district:226005",
+    "value": "{\"district\":\"Lucknow\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:226010",
+    "value": "{\"pincode\":\"226010\",\"district\":\"Lucknow\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.07}"
+  },
+  {
+    "key": "district:226010",
+    "value": "{\"district\":\"Lucknow\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:226012",
+    "value": "{\"pincode\":\"226012\",\"district\":\"Lucknow\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.06}"
+  },
+  {
+    "key": "district:226012",
+    "value": "{\"district\":\"Lucknow\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:226020",
+    "value": "{\"pincode\":\"226020\",\"district\":\"Lucknow\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.06}"
+  },
+  {
+    "key": "district:226020",
+    "value": "{\"district\":\"Lucknow\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:110001",
+    "value": "{\"pincode\":\"110001\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.08}"
+  },
+  {
+    "key": "district:110001",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110002",
+    "value": "{\"pincode\":\"110002\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.07}"
+  },
+  {
+    "key": "district:110002",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110003",
+    "value": "{\"pincode\":\"110003\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.07}"
+  },
+  {
+    "key": "district:110003",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110004",
+    "value": "{\"pincode\":\"110004\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.06}"
+  },
+  {
+    "key": "district:110004",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110005",
+    "value": "{\"pincode\":\"110005\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.06}"
+  },
+  {
+    "key": "district:110005",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110006",
+    "value": "{\"pincode\":\"110006\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:110006",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110007",
+    "value": "{\"pincode\":\"110007\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:110007",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110008",
+    "value": "{\"pincode\":\"110008\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:110008",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110009",
+    "value": "{\"pincode\":\"110009\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:110009",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110010",
+    "value": "{\"pincode\":\"110010\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:110010",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110011",
+    "value": "{\"pincode\":\"110011\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:110011",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110012",
+    "value": "{\"pincode\":\"110012\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:110012",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110013",
+    "value": "{\"pincode\":\"110013\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:110013",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110014",
+    "value": "{\"pincode\":\"110014\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:110014",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110015",
+    "value": "{\"pincode\":\"110015\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:110015",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110016",
+    "value": "{\"pincode\":\"110016\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:110016",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110017",
+    "value": "{\"pincode\":\"110017\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:110017",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110018",
+    "value": "{\"pincode\":\"110018\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:110018",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110019",
+    "value": "{\"pincode\":\"110019\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:110019",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110020",
+    "value": "{\"pincode\":\"110020\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:110020",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110021",
+    "value": "{\"pincode\":\"110021\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:110021",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110022",
+    "value": "{\"pincode\":\"110022\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:110022",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110023",
+    "value": "{\"pincode\":\"110023\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:110023",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110024",
+    "value": "{\"pincode\":\"110024\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:110024",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110025",
+    "value": "{\"pincode\":\"110025\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:110025",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110026",
+    "value": "{\"pincode\":\"110026\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:110026",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110027",
+    "value": "{\"pincode\":\"110027\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:110027",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110028",
+    "value": "{\"pincode\":\"110028\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:110028",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110029",
+    "value": "{\"pincode\":\"110029\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:110029",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:110030",
+    "value": "{\"pincode\":\"110030\",\"district\":\"New Delhi\",\"state\":\"Delhi\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:110030",
+    "value": "{\"district\":\"New Delhi\",\"state\":\"Delhi\"}"
+  },
+  {
+    "key": "pincode:560001",
+    "value": "{\"pincode\":\"560001\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:560001",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560002",
+    "value": "{\"pincode\":\"560002\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:560002",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560003",
+    "value": "{\"pincode\":\"560003\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:560003",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560004",
+    "value": "{\"pincode\":\"560004\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:560004",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560005",
+    "value": "{\"pincode\":\"560005\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:560005",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560006",
+    "value": "{\"pincode\":\"560006\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560006",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560007",
+    "value": "{\"pincode\":\"560007\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560007",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560008",
+    "value": "{\"pincode\":\"560008\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560008",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560009",
+    "value": "{\"pincode\":\"560009\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560009",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560010",
+    "value": "{\"pincode\":\"560010\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560010",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560011",
+    "value": "{\"pincode\":\"560011\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560011",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560012",
+    "value": "{\"pincode\":\"560012\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560012",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560013",
+    "value": "{\"pincode\":\"560013\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560013",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560014",
+    "value": "{\"pincode\":\"560014\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560014",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560015",
+    "value": "{\"pincode\":\"560015\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560015",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560016",
+    "value": "{\"pincode\":\"560016\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560016",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560017",
+    "value": "{\"pincode\":\"560017\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560017",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560018",
+    "value": "{\"pincode\":\"560018\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560018",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560019",
+    "value": "{\"pincode\":\"560019\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560019",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560020",
+    "value": "{\"pincode\":\"560020\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560020",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560021",
+    "value": "{\"pincode\":\"560021\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560021",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560022",
+    "value": "{\"pincode\":\"560022\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560022",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560023",
+    "value": "{\"pincode\":\"560023\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560023",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560024",
+    "value": "{\"pincode\":\"560024\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560024",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560025",
+    "value": "{\"pincode\":\"560025\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560025",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560026",
+    "value": "{\"pincode\":\"560026\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560026",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560027",
+    "value": "{\"pincode\":\"560027\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560027",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560028",
+    "value": "{\"pincode\":\"560028\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560028",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560029",
+    "value": "{\"pincode\":\"560029\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560029",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560030",
+    "value": "{\"pincode\":\"560030\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560030",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560031",
+    "value": "{\"pincode\":\"560031\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560031",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560032",
+    "value": "{\"pincode\":\"560032\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560032",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560033",
+    "value": "{\"pincode\":\"560033\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560033",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560034",
+    "value": "{\"pincode\":\"560034\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560034",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560035",
+    "value": "{\"pincode\":\"560035\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560035",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560036",
+    "value": "{\"pincode\":\"560036\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560036",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560037",
+    "value": "{\"pincode\":\"560037\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.03}"
+  },
+  {
+    "key": "district:560037",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560038",
+    "value": "{\"pincode\":\"560038\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.02}"
+  },
+  {
+    "key": "district:560038",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560039",
+    "value": "{\"pincode\":\"560039\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.02}"
+  },
+  {
+    "key": "district:560039",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560040",
+    "value": "{\"pincode\":\"560040\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.02}"
+  },
+  {
+    "key": "district:560040",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560041",
+    "value": "{\"pincode\":\"560041\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.02}"
+  },
+  {
+    "key": "district:560041",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560042",
+    "value": "{\"pincode\":\"560042\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.02}"
+  },
+  {
+    "key": "district:560042",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560043",
+    "value": "{\"pincode\":\"560043\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.02}"
+  },
+  {
+    "key": "district:560043",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560044",
+    "value": "{\"pincode\":\"560044\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.02}"
+  },
+  {
+    "key": "district:560044",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560045",
+    "value": "{\"pincode\":\"560045\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.02}"
+  },
+  {
+    "key": "district:560045",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560046",
+    "value": "{\"pincode\":\"560046\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.02}"
+  },
+  {
+    "key": "district:560046",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560047",
+    "value": "{\"pincode\":\"560047\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.02}"
+  },
+  {
+    "key": "district:560047",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560048",
+    "value": "{\"pincode\":\"560048\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.02}"
+  },
+  {
+    "key": "district:560048",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560049",
+    "value": "{\"pincode\":\"560049\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.02}"
+  },
+  {
+    "key": "district:560049",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560050",
+    "value": "{\"pincode\":\"560050\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.02}"
+  },
+  {
+    "key": "district:560050",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560051",
+    "value": "{\"pincode\":\"560051\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.02}"
+  },
+  {
+    "key": "district:560051",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560052",
+    "value": "{\"pincode\":\"560052\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.02}"
+  },
+  {
+    "key": "district:560052",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560053",
+    "value": "{\"pincode\":\"560053\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.02}"
+  },
+  {
+    "key": "district:560053",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560054",
+    "value": "{\"pincode\":\"560054\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.02}"
+  },
+  {
+    "key": "district:560054",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560055",
+    "value": "{\"pincode\":\"560055\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.02}"
+  },
+  {
+    "key": "district:560055",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560056",
+    "value": "{\"pincode\":\"560056\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.02}"
+  },
+  {
+    "key": "district:560056",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560057",
+    "value": "{\"pincode\":\"560057\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.02}"
+  },
+  {
+    "key": "district:560057",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560058",
+    "value": "{\"pincode\":\"560058\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.02}"
+  },
+  {
+    "key": "district:560058",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560059",
+    "value": "{\"pincode\":\"560059\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.02}"
+  },
+  {
+    "key": "district:560059",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:560060",
+    "value": "{\"pincode\":\"560060\",\"district\":\"Bangalore\",\"state\":\"Karnataka\",\"rtoRate\":0.02}"
+  },
+  {
+    "key": "district:560060",
+    "value": "{\"district\":\"Bangalore\",\"state\":\"Karnataka\"}"
+  },
+  {
+    "key": "pincode:400001",
+    "value": "{\"pincode\":\"400001\",\"district\":\"Mumbai\",\"state\":\"Maharashtra\",\"rtoRate\":0.06}"
+  },
+  {
+    "key": "district:400001",
+    "value": "{\"district\":\"Mumbai\",\"state\":\"Maharashtra\"}"
+  },
+  {
+    "key": "pincode:400002",
+    "value": "{\"pincode\":\"400002\",\"district\":\"Mumbai\",\"state\":\"Maharashtra\",\"rtoRate\":0.06}"
+  },
+  {
+    "key": "district:400002",
+    "value": "{\"district\":\"Mumbai\",\"state\":\"Maharashtra\"}"
+  },
+  {
+    "key": "pincode:400003",
+    "value": "{\"pincode\":\"400003\",\"district\":\"Mumbai\",\"state\":\"Maharashtra\",\"rtoRate\":0.06}"
+  },
+  {
+    "key": "district:400003",
+    "value": "{\"district\":\"Mumbai\",\"state\":\"Maharashtra\"}"
+  },
+  {
+    "key": "pincode:400004",
+    "value": "{\"pincode\":\"400004\",\"district\":\"Mumbai\",\"state\":\"Maharashtra\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:400004",
+    "value": "{\"district\":\"Mumbai\",\"state\":\"Maharashtra\"}"
+  },
+  {
+    "key": "pincode:400005",
+    "value": "{\"pincode\":\"400005\",\"district\":\"Mumbai\",\"state\":\"Maharashtra\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:400005",
+    "value": "{\"district\":\"Mumbai\",\"state\":\"Maharashtra\"}"
+  },
+  {
+    "key": "pincode:400006",
+    "value": "{\"pincode\":\"400006\",\"district\":\"Mumbai\",\"state\":\"Maharashtra\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:400006",
+    "value": "{\"district\":\"Mumbai\",\"state\":\"Maharashtra\"}"
+  },
+  {
+    "key": "pincode:400007",
+    "value": "{\"pincode\":\"400007\",\"district\":\"Mumbai\",\"state\":\"Maharashtra\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:400007",
+    "value": "{\"district\":\"Mumbai\",\"state\":\"Maharashtra\"}"
+  },
+  {
+    "key": "pincode:400008",
+    "value": "{\"pincode\":\"400008\",\"district\":\"Mumbai\",\"state\":\"Maharashtra\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:400008",
+    "value": "{\"district\":\"Mumbai\",\"state\":\"Maharashtra\"}"
+  },
+  {
+    "key": "pincode:400009",
+    "value": "{\"pincode\":\"400009\",\"district\":\"Mumbai\",\"state\":\"Maharashtra\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:400009",
+    "value": "{\"district\":\"Mumbai\",\"state\":\"Maharashtra\"}"
+  },
+  {
+    "key": "pincode:400010",
+    "value": "{\"pincode\":\"400010\",\"district\":\"Mumbai\",\"state\":\"Maharashtra\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:400010",
+    "value": "{\"district\":\"Mumbai\",\"state\":\"Maharashtra\"}"
+  },
+  {
+    "key": "pincode:400011",
+    "value": "{\"pincode\":\"400011\",\"district\":\"Mumbai\",\"state\":\"Maharashtra\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:400011",
+    "value": "{\"district\":\"Mumbai\",\"state\":\"Maharashtra\"}"
+  },
+  {
+    "key": "pincode:400012",
+    "value": "{\"pincode\":\"400012\",\"district\":\"Mumbai\",\"state\":\"Maharashtra\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:400012",
+    "value": "{\"district\":\"Mumbai\",\"state\":\"Maharashtra\"}"
+  },
+  {
+    "key": "pincode:400013",
+    "value": "{\"pincode\":\"400013\",\"district\":\"Mumbai\",\"state\":\"Maharashtra\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:400013",
+    "value": "{\"district\":\"Mumbai\",\"state\":\"Maharashtra\"}"
+  },
+  {
+    "key": "pincode:400014",
+    "value": "{\"pincode\":\"400014\",\"district\":\"Mumbai\",\"state\":\"Maharashtra\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:400014",
+    "value": "{\"district\":\"Mumbai\",\"state\":\"Maharashtra\"}"
+  },
+  {
+    "key": "pincode:400015",
+    "value": "{\"pincode\":\"400015\",\"district\":\"Mumbai\",\"state\":\"Maharashtra\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:400015",
+    "value": "{\"district\":\"Mumbai\",\"state\":\"Maharashtra\"}"
+  },
+  {
+    "key": "pincode:400016",
+    "value": "{\"pincode\":\"400016\",\"district\":\"Mumbai\",\"state\":\"Maharashtra\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:400016",
+    "value": "{\"district\":\"Mumbai\",\"state\":\"Maharashtra\"}"
+  },
+  {
+    "key": "pincode:400017",
+    "value": "{\"pincode\":\"400017\",\"district\":\"Mumbai\",\"state\":\"Maharashtra\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:400017",
+    "value": "{\"district\":\"Mumbai\",\"state\":\"Maharashtra\"}"
+  },
+  {
+    "key": "pincode:400018",
+    "value": "{\"pincode\":\"400018\",\"district\":\"Mumbai\",\"state\":\"Maharashtra\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:400018",
+    "value": "{\"district\":\"Mumbai\",\"state\":\"Maharashtra\"}"
+  },
+  {
+    "key": "pincode:400019",
+    "value": "{\"pincode\":\"400019\",\"district\":\"Mumbai\",\"state\":\"Maharashtra\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:400019",
+    "value": "{\"district\":\"Mumbai\",\"state\":\"Maharashtra\"}"
+  },
+  {
+    "key": "pincode:400020",
+    "value": "{\"pincode\":\"400020\",\"district\":\"Mumbai\",\"state\":\"Maharashtra\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:400020",
+    "value": "{\"district\":\"Mumbai\",\"state\":\"Maharashtra\"}"
+  },
+  {
+    "key": "pincode:500001",
+    "value": "{\"pincode\":\"500001\",\"district\":\"Hyderabad\",\"state\":\"Telangana\",\"rtoRate\":0.06}"
+  },
+  {
+    "key": "district:500001",
+    "value": "{\"district\":\"Hyderabad\",\"state\":\"Telangana\"}"
+  },
+  {
+    "key": "pincode:500002",
+    "value": "{\"pincode\":\"500002\",\"district\":\"Hyderabad\",\"state\":\"Telangana\",\"rtoRate\":0.06}"
+  },
+  {
+    "key": "district:500002",
+    "value": "{\"district\":\"Hyderabad\",\"state\":\"Telangana\"}"
+  },
+  {
+    "key": "pincode:500003",
+    "value": "{\"pincode\":\"500003\",\"district\":\"Hyderabad\",\"state\":\"Telangana\",\"rtoRate\":0.06}"
+  },
+  {
+    "key": "district:500003",
+    "value": "{\"district\":\"Hyderabad\",\"state\":\"Telangana\"}"
+  },
+  {
+    "key": "pincode:500004",
+    "value": "{\"pincode\":\"500004\",\"district\":\"Hyderabad\",\"state\":\"Telangana\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:500004",
+    "value": "{\"district\":\"Hyderabad\",\"state\":\"Telangana\"}"
+  },
+  {
+    "key": "pincode:500005",
+    "value": "{\"pincode\":\"500005\",\"district\":\"Hyderabad\",\"state\":\"Telangana\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:500005",
+    "value": "{\"district\":\"Hyderabad\",\"state\":\"Telangana\"}"
+  },
+  {
+    "key": "pincode:500006",
+    "value": "{\"pincode\":\"500006\",\"district\":\"Hyderabad\",\"state\":\"Telangana\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:500006",
+    "value": "{\"district\":\"Hyderabad\",\"state\":\"Telangana\"}"
+  },
+  {
+    "key": "pincode:500007",
+    "value": "{\"pincode\":\"500007\",\"district\":\"Hyderabad\",\"state\":\"Telangana\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:500007",
+    "value": "{\"district\":\"Hyderabad\",\"state\":\"Telangana\"}"
+  },
+  {
+    "key": "pincode:500008",
+    "value": "{\"pincode\":\"500008\",\"district\":\"Hyderabad\",\"state\":\"Telangana\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:500008",
+    "value": "{\"district\":\"Hyderabad\",\"state\":\"Telangana\"}"
+  },
+  {
+    "key": "pincode:500009",
+    "value": "{\"pincode\":\"500009\",\"district\":\"Hyderabad\",\"state\":\"Telangana\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:500009",
+    "value": "{\"district\":\"Hyderabad\",\"state\":\"Telangana\"}"
+  },
+  {
+    "key": "pincode:500010",
+    "value": "{\"pincode\":\"500010\",\"district\":\"Hyderabad\",\"state\":\"Telangana\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:500010",
+    "value": "{\"district\":\"Hyderabad\",\"state\":\"Telangana\"}"
+  },
+  {
+    "key": "pincode:500011",
+    "value": "{\"pincode\":\"500011\",\"district\":\"Hyderabad\",\"state\":\"Telangana\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:500011",
+    "value": "{\"district\":\"Hyderabad\",\"state\":\"Telangana\"}"
+  },
+  {
+    "key": "pincode:500012",
+    "value": "{\"pincode\":\"500012\",\"district\":\"Hyderabad\",\"state\":\"Telangana\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:500012",
+    "value": "{\"district\":\"Hyderabad\",\"state\":\"Telangana\"}"
+  },
+  {
+    "key": "pincode:500013",
+    "value": "{\"pincode\":\"500013\",\"district\":\"Hyderabad\",\"state\":\"Telangana\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:500013",
+    "value": "{\"district\":\"Hyderabad\",\"state\":\"Telangana\"}"
+  },
+  {
+    "key": "pincode:500014",
+    "value": "{\"pincode\":\"500014\",\"district\":\"Hyderabad\",\"state\":\"Telangana\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:500014",
+    "value": "{\"district\":\"Hyderabad\",\"state\":\"Telangana\"}"
+  },
+  {
+    "key": "pincode:500015",
+    "value": "{\"pincode\":\"500015\",\"district\":\"Hyderabad\",\"state\":\"Telangana\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:500015",
+    "value": "{\"district\":\"Hyderabad\",\"state\":\"Telangana\"}"
+  },
+  {
+    "key": "pincode:500016",
+    "value": "{\"pincode\":\"500016\",\"district\":\"Hyderabad\",\"state\":\"Telangana\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:500016",
+    "value": "{\"district\":\"Hyderabad\",\"state\":\"Telangana\"}"
+  },
+  {
+    "key": "pincode:500017",
+    "value": "{\"pincode\":\"500017\",\"district\":\"Hyderabad\",\"state\":\"Telangana\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:500017",
+    "value": "{\"district\":\"Hyderabad\",\"state\":\"Telangana\"}"
+  },
+  {
+    "key": "pincode:500018",
+    "value": "{\"pincode\":\"500018\",\"district\":\"Hyderabad\",\"state\":\"Telangana\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:500018",
+    "value": "{\"district\":\"Hyderabad\",\"state\":\"Telangana\"}"
+  },
+  {
+    "key": "pincode:500019",
+    "value": "{\"pincode\":\"500019\",\"district\":\"Hyderabad\",\"state\":\"Telangana\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:500019",
+    "value": "{\"district\":\"Hyderabad\",\"state\":\"Telangana\"}"
+  },
+  {
+    "key": "pincode:500020",
+    "value": "{\"pincode\":\"500020\",\"district\":\"Hyderabad\",\"state\":\"Telangana\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:500020",
+    "value": "{\"district\":\"Hyderabad\",\"state\":\"Telangana\"}"
+  },
+  {
+    "key": "pincode:600001",
+    "value": "{\"pincode\":\"600001\",\"district\":\"Chennai\",\"state\":\"Tamil Nadu\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:600001",
+    "value": "{\"district\":\"Chennai\",\"state\":\"Tamil Nadu\"}"
+  },
+  {
+    "key": "pincode:600002",
+    "value": "{\"pincode\":\"600002\",\"district\":\"Chennai\",\"state\":\"Tamil Nadu\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:600002",
+    "value": "{\"district\":\"Chennai\",\"state\":\"Tamil Nadu\"}"
+  },
+  {
+    "key": "pincode:600003",
+    "value": "{\"pincode\":\"600003\",\"district\":\"Chennai\",\"state\":\"Tamil Nadu\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:600003",
+    "value": "{\"district\":\"Chennai\",\"state\":\"Tamil Nadu\"}"
+  },
+  {
+    "key": "pincode:600004",
+    "value": "{\"pincode\":\"600004\",\"district\":\"Chennai\",\"state\":\"Tamil Nadu\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:600004",
+    "value": "{\"district\":\"Chennai\",\"state\":\"Tamil Nadu\"}"
+  },
+  {
+    "key": "pincode:600005",
+    "value": "{\"pincode\":\"600005\",\"district\":\"Chennai\",\"state\":\"Tamil Nadu\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:600005",
+    "value": "{\"district\":\"Chennai\",\"state\":\"Tamil Nadu\"}"
+  },
+  {
+    "key": "pincode:600006",
+    "value": "{\"pincode\":\"600006\",\"district\":\"Chennai\",\"state\":\"Tamil Nadu\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:600006",
+    "value": "{\"district\":\"Chennai\",\"state\":\"Tamil Nadu\"}"
+  },
+  {
+    "key": "pincode:600007",
+    "value": "{\"pincode\":\"600007\",\"district\":\"Chennai\",\"state\":\"Tamil Nadu\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:600007",
+    "value": "{\"district\":\"Chennai\",\"state\":\"Tamil Nadu\"}"
+  },
+  {
+    "key": "pincode:600008",
+    "value": "{\"pincode\":\"600008\",\"district\":\"Chennai\",\"state\":\"Tamil Nadu\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:600008",
+    "value": "{\"district\":\"Chennai\",\"state\":\"Tamil Nadu\"}"
+  },
+  {
+    "key": "pincode:600009",
+    "value": "{\"pincode\":\"600009\",\"district\":\"Chennai\",\"state\":\"Tamil Nadu\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:600009",
+    "value": "{\"district\":\"Chennai\",\"state\":\"Tamil Nadu\"}"
+  },
+  {
+    "key": "pincode:600010",
+    "value": "{\"pincode\":\"600010\",\"district\":\"Chennai\",\"state\":\"Tamil Nadu\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:600010",
+    "value": "{\"district\":\"Chennai\",\"state\":\"Tamil Nadu\"}"
+  },
+  {
+    "key": "pincode:600011",
+    "value": "{\"pincode\":\"600011\",\"district\":\"Chennai\",\"state\":\"Tamil Nadu\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:600011",
+    "value": "{\"district\":\"Chennai\",\"state\":\"Tamil Nadu\"}"
+  },
+  {
+    "key": "pincode:600012",
+    "value": "{\"pincode\":\"600012\",\"district\":\"Chennai\",\"state\":\"Tamil Nadu\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:600012",
+    "value": "{\"district\":\"Chennai\",\"state\":\"Tamil Nadu\"}"
+  },
+  {
+    "key": "pincode:600013",
+    "value": "{\"pincode\":\"600013\",\"district\":\"Chennai\",\"state\":\"Tamil Nadu\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:600013",
+    "value": "{\"district\":\"Chennai\",\"state\":\"Tamil Nadu\"}"
+  },
+  {
+    "key": "pincode:600014",
+    "value": "{\"pincode\":\"600014\",\"district\":\"Chennai\",\"state\":\"Tamil Nadu\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:600014",
+    "value": "{\"district\":\"Chennai\",\"state\":\"Tamil Nadu\"}"
+  },
+  {
+    "key": "pincode:600015",
+    "value": "{\"pincode\":\"600015\",\"district\":\"Chennai\",\"state\":\"Tamil Nadu\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:600015",
+    "value": "{\"district\":\"Chennai\",\"state\":\"Tamil Nadu\"}"
+  },
+  {
+    "key": "pincode:600016",
+    "value": "{\"pincode\":\"600016\",\"district\":\"Chennai\",\"state\":\"Tamil Nadu\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:600016",
+    "value": "{\"district\":\"Chennai\",\"state\":\"Tamil Nadu\"}"
+  },
+  {
+    "key": "pincode:600017",
+    "value": "{\"pincode\":\"600017\",\"district\":\"Chennai\",\"state\":\"Tamil Nadu\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:600017",
+    "value": "{\"district\":\"Chennai\",\"state\":\"Tamil Nadu\"}"
+  },
+  {
+    "key": "pincode:600018",
+    "value": "{\"pincode\":\"600018\",\"district\":\"Chennai\",\"state\":\"Tamil Nadu\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:600018",
+    "value": "{\"district\":\"Chennai\",\"state\":\"Tamil Nadu\"}"
+  },
+  {
+    "key": "pincode:600019",
+    "value": "{\"pincode\":\"600019\",\"district\":\"Chennai\",\"state\":\"Tamil Nadu\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:600019",
+    "value": "{\"district\":\"Chennai\",\"state\":\"Tamil Nadu\"}"
+  },
+  {
+    "key": "pincode:600020",
+    "value": "{\"pincode\":\"600020\",\"district\":\"Chennai\",\"state\":\"Tamil Nadu\",\"rtoRate\":0.04}"
+  },
+  {
+    "key": "district:600020",
+    "value": "{\"district\":\"Chennai\",\"state\":\"Tamil Nadu\"}"
+  },
+  {
+    "key": "pincode:700001",
+    "value": "{\"pincode\":\"700001\",\"district\":\"Kolkata\",\"state\":\"West Bengal\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:700001",
+    "value": "{\"district\":\"Kolkata\",\"state\":\"West Bengal\"}"
+  },
+  {
+    "key": "pincode:700002",
+    "value": "{\"pincode\":\"700002\",\"district\":\"Kolkata\",\"state\":\"West Bengal\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:700002",
+    "value": "{\"district\":\"Kolkata\",\"state\":\"West Bengal\"}"
+  },
+  {
+    "key": "pincode:700003",
+    "value": "{\"pincode\":\"700003\",\"district\":\"Kolkata\",\"state\":\"West Bengal\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:700003",
+    "value": "{\"district\":\"Kolkata\",\"state\":\"West Bengal\"}"
+  },
+  {
+    "key": "pincode:700004",
+    "value": "{\"pincode\":\"700004\",\"district\":\"Kolkata\",\"state\":\"West Bengal\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:700004",
+    "value": "{\"district\":\"Kolkata\",\"state\":\"West Bengal\"}"
+  },
+  {
+    "key": "pincode:700005",
+    "value": "{\"pincode\":\"700005\",\"district\":\"Kolkata\",\"state\":\"West Bengal\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:700005",
+    "value": "{\"district\":\"Kolkata\",\"state\":\"West Bengal\"}"
+  },
+  {
+    "key": "pincode:700006",
+    "value": "{\"pincode\":\"700006\",\"district\":\"Kolkata\",\"state\":\"West Bengal\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:700006",
+    "value": "{\"district\":\"Kolkata\",\"state\":\"West Bengal\"}"
+  },
+  {
+    "key": "pincode:700007",
+    "value": "{\"pincode\":\"700007\",\"district\":\"Kolkata\",\"state\":\"West Bengal\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:700007",
+    "value": "{\"district\":\"Kolkata\",\"state\":\"West Bengal\"}"
+  },
+  {
+    "key": "pincode:700008",
+    "value": "{\"pincode\":\"700008\",\"district\":\"Kolkata\",\"state\":\"West Bengal\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:700008",
+    "value": "{\"district\":\"Kolkata\",\"state\":\"West Bengal\"}"
+  },
+  {
+    "key": "pincode:700009",
+    "value": "{\"pincode\":\"700009\",\"district\":\"Kolkata\",\"state\":\"West Bengal\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:700009",
+    "value": "{\"district\":\"Kolkata\",\"state\":\"West Bengal\"}"
+  },
+  {
+    "key": "pincode:700010",
+    "value": "{\"pincode\":\"700010\",\"district\":\"Kolkata\",\"state\":\"West Bengal\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:700010",
+    "value": "{\"district\":\"Kolkata\",\"state\":\"West Bengal\"}"
+  },
+  {
+    "key": "pincode:700011",
+    "value": "{\"pincode\":\"700011\",\"district\":\"Kolkata\",\"state\":\"West Bengal\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:700011",
+    "value": "{\"district\":\"Kolkata\",\"state\":\"West Bengal\"}"
+  },
+  {
+    "key": "pincode:700012",
+    "value": "{\"pincode\":\"700012\",\"district\":\"Kolkata\",\"state\":\"West Bengal\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:700012",
+    "value": "{\"district\":\"Kolkata\",\"state\":\"West Bengal\"}"
+  },
+  {
+    "key": "pincode:700013",
+    "value": "{\"pincode\":\"700013\",\"district\":\"Kolkata\",\"state\":\"West Bengal\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:700013",
+    "value": "{\"district\":\"Kolkata\",\"state\":\"West Bengal\"}"
+  },
+  {
+    "key": "pincode:700014",
+    "value": "{\"pincode\":\"700014\",\"district\":\"Kolkata\",\"state\":\"West Bengal\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:700014",
+    "value": "{\"district\":\"Kolkata\",\"state\":\"West Bengal\"}"
+  },
+  {
+    "key": "pincode:700015",
+    "value": "{\"pincode\":\"700015\",\"district\":\"Kolkata\",\"state\":\"West Bengal\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:700015",
+    "value": "{\"district\":\"Kolkata\",\"state\":\"West Bengal\"}"
+  },
+  {
+    "key": "pincode:700016",
+    "value": "{\"pincode\":\"700016\",\"district\":\"Kolkata\",\"state\":\"West Bengal\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:700016",
+    "value": "{\"district\":\"Kolkata\",\"state\":\"West Bengal\"}"
+  },
+  {
+    "key": "pincode:700017",
+    "value": "{\"pincode\":\"700017\",\"district\":\"Kolkata\",\"state\":\"West Bengal\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:700017",
+    "value": "{\"district\":\"Kolkata\",\"state\":\"West Bengal\"}"
+  },
+  {
+    "key": "pincode:700018",
+    "value": "{\"pincode\":\"700018\",\"district\":\"Kolkata\",\"state\":\"West Bengal\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:700018",
+    "value": "{\"district\":\"Kolkata\",\"state\":\"West Bengal\"}"
+  },
+  {
+    "key": "pincode:700019",
+    "value": "{\"pincode\":\"700019\",\"district\":\"Kolkata\",\"state\":\"West Bengal\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:700019",
+    "value": "{\"district\":\"Kolkata\",\"state\":\"West Bengal\"}"
+  },
+  {
+    "key": "pincode:700020",
+    "value": "{\"pincode\":\"700020\",\"district\":\"Kolkata\",\"state\":\"West Bengal\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:700020",
+    "value": "{\"district\":\"Kolkata\",\"state\":\"West Bengal\"}"
+  },
+  {
+    "key": "pincode:380001",
+    "value": "{\"pincode\":\"380001\",\"district\":\"Ahmedabad\",\"state\":\"Gujarat\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:380001",
+    "value": "{\"district\":\"Ahmedabad\",\"state\":\"Gujarat\"}"
+  },
+  {
+    "key": "pincode:380002",
+    "value": "{\"pincode\":\"380002\",\"district\":\"Ahmedabad\",\"state\":\"Gujarat\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:380002",
+    "value": "{\"district\":\"Ahmedabad\",\"state\":\"Gujarat\"}"
+  },
+  {
+    "key": "pincode:380003",
+    "value": "{\"pincode\":\"380003\",\"district\":\"Ahmedabad\",\"state\":\"Gujarat\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:380003",
+    "value": "{\"district\":\"Ahmedabad\",\"state\":\"Gujarat\"}"
+  },
+  {
+    "key": "pincode:380004",
+    "value": "{\"pincode\":\"380004\",\"district\":\"Ahmedabad\",\"state\":\"Gujarat\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:380004",
+    "value": "{\"district\":\"Ahmedabad\",\"state\":\"Gujarat\"}"
+  },
+  {
+    "key": "pincode:380005",
+    "value": "{\"pincode\":\"380005\",\"district\":\"Ahmedabad\",\"state\":\"Gujarat\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:380005",
+    "value": "{\"district\":\"Ahmedabad\",\"state\":\"Gujarat\"}"
+  },
+  {
+    "key": "pincode:380006",
+    "value": "{\"pincode\":\"380006\",\"district\":\"Ahmedabad\",\"state\":\"Gujarat\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:380006",
+    "value": "{\"district\":\"Ahmedabad\",\"state\":\"Gujarat\"}"
+  },
+  {
+    "key": "pincode:380007",
+    "value": "{\"pincode\":\"380007\",\"district\":\"Ahmedabad\",\"state\":\"Gujarat\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:380007",
+    "value": "{\"district\":\"Ahmedabad\",\"state\":\"Gujarat\"}"
+  },
+  {
+    "key": "pincode:380008",
+    "value": "{\"pincode\":\"380008\",\"district\":\"Ahmedabad\",\"state\":\"Gujarat\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:380008",
+    "value": "{\"district\":\"Ahmedabad\",\"state\":\"Gujarat\"}"
+  },
+  {
+    "key": "pincode:380009",
+    "value": "{\"pincode\":\"380009\",\"district\":\"Ahmedabad\",\"state\":\"Gujarat\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:380009",
+    "value": "{\"district\":\"Ahmedabad\",\"state\":\"Gujarat\"}"
+  },
+  {
+    "key": "pincode:380010",
+    "value": "{\"pincode\":\"380010\",\"district\":\"Ahmedabad\",\"state\":\"Gujarat\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:380010",
+    "value": "{\"district\":\"Ahmedabad\",\"state\":\"Gujarat\"}"
+  },
+  {
+    "key": "pincode:380011",
+    "value": "{\"pincode\":\"380011\",\"district\":\"Ahmedabad\",\"state\":\"Gujarat\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:380011",
+    "value": "{\"district\":\"Ahmedabad\",\"state\":\"Gujarat\"}"
+  },
+  {
+    "key": "pincode:380012",
+    "value": "{\"pincode\":\"380012\",\"district\":\"Ahmedabad\",\"state\":\"Gujarat\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:380012",
+    "value": "{\"district\":\"Ahmedabad\",\"state\":\"Gujarat\"}"
+  },
+  {
+    "key": "pincode:380013",
+    "value": "{\"pincode\":\"380013\",\"district\":\"Ahmedabad\",\"state\":\"Gujarat\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:380013",
+    "value": "{\"district\":\"Ahmedabad\",\"state\":\"Gujarat\"}"
+  },
+  {
+    "key": "pincode:380014",
+    "value": "{\"pincode\":\"380014\",\"district\":\"Ahmedabad\",\"state\":\"Gujarat\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:380014",
+    "value": "{\"district\":\"Ahmedabad\",\"state\":\"Gujarat\"}"
+  },
+  {
+    "key": "pincode:380015",
+    "value": "{\"pincode\":\"380015\",\"district\":\"Ahmedabad\",\"state\":\"Gujarat\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:380015",
+    "value": "{\"district\":\"Ahmedabad\",\"state\":\"Gujarat\"}"
+  },
+  {
+    "key": "pincode:380016",
+    "value": "{\"pincode\":\"380016\",\"district\":\"Ahmedabad\",\"state\":\"Gujarat\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:380016",
+    "value": "{\"district\":\"Ahmedabad\",\"state\":\"Gujarat\"}"
+  },
+  {
+    "key": "pincode:380017",
+    "value": "{\"pincode\":\"380017\",\"district\":\"Ahmedabad\",\"state\":\"Gujarat\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:380017",
+    "value": "{\"district\":\"Ahmedabad\",\"state\":\"Gujarat\"}"
+  },
+  {
+    "key": "pincode:380018",
+    "value": "{\"pincode\":\"380018\",\"district\":\"Ahmedabad\",\"state\":\"Gujarat\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:380018",
+    "value": "{\"district\":\"Ahmedabad\",\"state\":\"Gujarat\"}"
+  },
+  {
+    "key": "pincode:380019",
+    "value": "{\"pincode\":\"380019\",\"district\":\"Ahmedabad\",\"state\":\"Gujarat\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:380019",
+    "value": "{\"district\":\"Ahmedabad\",\"state\":\"Gujarat\"}"
+  },
+  {
+    "key": "pincode:380020",
+    "value": "{\"pincode\":\"380020\",\"district\":\"Ahmedabad\",\"state\":\"Gujarat\",\"rtoRate\":0.05}"
+  },
+  {
+    "key": "district:380020",
+    "value": "{\"district\":\"Ahmedabad\",\"state\":\"Gujarat\"}"
+  },
+  {
+    "key": "pincode:834001",
+    "value": "{\"pincode\":\"834001\",\"district\":\"Ranchi\",\"state\":\"Jharkhand\",\"rtoRate\":0.18}"
+  },
+  {
+    "key": "district:834001",
+    "value": "{\"district\":\"Ranchi\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:834002",
+    "value": "{\"pincode\":\"834002\",\"district\":\"Ranchi\",\"state\":\"Jharkhand\",\"rtoRate\":0.17}"
+  },
+  {
+    "key": "district:834002",
+    "value": "{\"district\":\"Ranchi\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:834003",
+    "value": "{\"pincode\":\"834003\",\"district\":\"Ranchi\",\"state\":\"Jharkhand\",\"rtoRate\":0.16}"
+  },
+  {
+    "key": "district:834003",
+    "value": "{\"district\":\"Ranchi\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:834004",
+    "value": "{\"pincode\":\"834004\",\"district\":\"Ranchi\",\"state\":\"Jharkhand\",\"rtoRate\":0.15}"
+  },
+  {
+    "key": "district:834004",
+    "value": "{\"district\":\"Ranchi\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:834005",
+    "value": "{\"pincode\":\"834005\",\"district\":\"Ranchi\",\"state\":\"Jharkhand\",\"rtoRate\":0.14}"
+  },
+  {
+    "key": "district:834005",
+    "value": "{\"district\":\"Ranchi\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:834006",
+    "value": "{\"pincode\":\"834006\",\"district\":\"Ranchi\",\"state\":\"Jharkhand\",\"rtoRate\":0.14}"
+  },
+  {
+    "key": "district:834006",
+    "value": "{\"district\":\"Ranchi\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:834007",
+    "value": "{\"pincode\":\"834007\",\"district\":\"Ranchi\",\"state\":\"Jharkhand\",\"rtoRate\":0.13}"
+  },
+  {
+    "key": "district:834007",
+    "value": "{\"district\":\"Ranchi\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:834008",
+    "value": "{\"pincode\":\"834008\",\"district\":\"Ranchi\",\"state\":\"Jharkhand\",\"rtoRate\":0.13}"
+  },
+  {
+    "key": "district:834008",
+    "value": "{\"district\":\"Ranchi\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:834009",
+    "value": "{\"pincode\":\"834009\",\"district\":\"Ranchi\",\"state\":\"Jharkhand\",\"rtoRate\":0.12}"
+  },
+  {
+    "key": "district:834009",
+    "value": "{\"district\":\"Ranchi\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:834010",
+    "value": "{\"pincode\":\"834010\",\"district\":\"Ranchi\",\"state\":\"Jharkhand\",\"rtoRate\":0.12}"
+  },
+  {
+    "key": "district:834010",
+    "value": "{\"district\":\"Ranchi\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:834011",
+    "value": "{\"pincode\":\"834011\",\"district\":\"Ranchi\",\"state\":\"Jharkhand\",\"rtoRate\":0.11}"
+  },
+  {
+    "key": "district:834011",
+    "value": "{\"district\":\"Ranchi\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:834012",
+    "value": "{\"pincode\":\"834012\",\"district\":\"Ranchi\",\"state\":\"Jharkhand\",\"rtoRate\":0.11}"
+  },
+  {
+    "key": "district:834012",
+    "value": "{\"district\":\"Ranchi\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:834013",
+    "value": "{\"pincode\":\"834013\",\"district\":\"Ranchi\",\"state\":\"Jharkhand\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:834013",
+    "value": "{\"district\":\"Ranchi\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:834014",
+    "value": "{\"pincode\":\"834014\",\"district\":\"Ranchi\",\"state\":\"Jharkhand\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:834014",
+    "value": "{\"district\":\"Ranchi\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:834015",
+    "value": "{\"pincode\":\"834015\",\"district\":\"Ranchi\",\"state\":\"Jharkhand\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:834015",
+    "value": "{\"district\":\"Ranchi\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:834016",
+    "value": "{\"pincode\":\"834016\",\"district\":\"Ranchi\",\"state\":\"Jharkhand\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:834016",
+    "value": "{\"district\":\"Ranchi\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:834017",
+    "value": "{\"pincode\":\"834017\",\"district\":\"Ranchi\",\"state\":\"Jharkhand\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:834017",
+    "value": "{\"district\":\"Ranchi\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:834018",
+    "value": "{\"pincode\":\"834018\",\"district\":\"Ranchi\",\"state\":\"Jharkhand\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:834018",
+    "value": "{\"district\":\"Ranchi\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:834019",
+    "value": "{\"pincode\":\"834019\",\"district\":\"Ranchi\",\"state\":\"Jharkhand\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:834019",
+    "value": "{\"district\":\"Ranchi\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:834020",
+    "value": "{\"pincode\":\"834020\",\"district\":\"Ranchi\",\"state\":\"Jharkhand\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:834020",
+    "value": "{\"district\":\"Ranchi\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:825101",
+    "value": "{\"pincode\":\"825101\",\"district\":\"Gaya\",\"state\":\"Jharkhand\",\"rtoRate\":0.2}"
+  },
+  {
+    "key": "district:825101",
+    "value": "{\"district\":\"Gaya\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:825102",
+    "value": "{\"pincode\":\"825102\",\"district\":\"Gaya\",\"state\":\"Jharkhand\",\"rtoRate\":0.19}"
+  },
+  {
+    "key": "district:825102",
+    "value": "{\"district\":\"Gaya\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:825103",
+    "value": "{\"pincode\":\"825103\",\"district\":\"Gaya\",\"state\":\"Jharkhand\",\"rtoRate\":0.18}"
+  },
+  {
+    "key": "district:825103",
+    "value": "{\"district\":\"Gaya\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:825104",
+    "value": "{\"pincode\":\"825104\",\"district\":\"Gaya\",\"state\":\"Jharkhand\",\"rtoRate\":0.17}"
+  },
+  {
+    "key": "district:825104",
+    "value": "{\"district\":\"Gaya\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:825105",
+    "value": "{\"pincode\":\"825105\",\"district\":\"Gaya\",\"state\":\"Jharkhand\",\"rtoRate\":0.16}"
+  },
+  {
+    "key": "district:825105",
+    "value": "{\"district\":\"Gaya\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:825106",
+    "value": "{\"pincode\":\"825106\",\"district\":\"Gaya\",\"state\":\"Jharkhand\",\"rtoRate\":0.15}"
+  },
+  {
+    "key": "district:825106",
+    "value": "{\"district\":\"Gaya\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:825107",
+    "value": "{\"pincode\":\"825107\",\"district\":\"Gaya\",\"state\":\"Jharkhand\",\"rtoRate\":0.15}"
+  },
+  {
+    "key": "district:825107",
+    "value": "{\"district\":\"Gaya\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:825108",
+    "value": "{\"pincode\":\"825108\",\"district\":\"Gaya\",\"state\":\"Jharkhand\",\"rtoRate\":0.14}"
+  },
+  {
+    "key": "district:825108",
+    "value": "{\"district\":\"Gaya\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:825109",
+    "value": "{\"pincode\":\"825109\",\"district\":\"Gaya\",\"state\":\"Jharkhand\",\"rtoRate\":0.14}"
+  },
+  {
+    "key": "district:825109",
+    "value": "{\"district\":\"Gaya\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:825110",
+    "value": "{\"pincode\":\"825110\",\"district\":\"Gaya\",\"state\":\"Jharkhand\",\"rtoRate\":0.13}"
+  },
+  {
+    "key": "district:825110",
+    "value": "{\"district\":\"Gaya\",\"state\":\"Jharkhand\"}"
+  },
+  {
+    "key": "pincode:751001",
+    "value": "{\"pincode\":\"751001\",\"district\":\"Bhubaneswar\",\"state\":\"Odisha\",\"rtoRate\":0.14}"
+  },
+  {
+    "key": "district:751001",
+    "value": "{\"district\":\"Bhubaneswar\",\"state\":\"Odisha\"}"
+  },
+  {
+    "key": "pincode:751002",
+    "value": "{\"pincode\":\"751002\",\"district\":\"Bhubaneswar\",\"state\":\"Odisha\",\"rtoRate\":0.13}"
+  },
+  {
+    "key": "district:751002",
+    "value": "{\"district\":\"Bhubaneswar\",\"state\":\"Odisha\"}"
+  },
+  {
+    "key": "pincode:751003",
+    "value": "{\"pincode\":\"751003\",\"district\":\"Bhubaneswar\",\"state\":\"Odisha\",\"rtoRate\":0.13}"
+  },
+  {
+    "key": "district:751003",
+    "value": "{\"district\":\"Bhubaneswar\",\"state\":\"Odisha\"}"
+  },
+  {
+    "key": "pincode:751004",
+    "value": "{\"pincode\":\"751004\",\"district\":\"Bhubaneswar\",\"state\":\"Odisha\",\"rtoRate\":0.12}"
+  },
+  {
+    "key": "district:751004",
+    "value": "{\"district\":\"Bhubaneswar\",\"state\":\"Odisha\"}"
+  },
+  {
+    "key": "pincode:751005",
+    "value": "{\"pincode\":\"751005\",\"district\":\"Bhubaneswar\",\"state\":\"Odisha\",\"rtoRate\":0.12}"
+  },
+  {
+    "key": "district:751005",
+    "value": "{\"district\":\"Bhubaneswar\",\"state\":\"Odisha\"}"
+  },
+  {
+    "key": "pincode:751006",
+    "value": "{\"pincode\":\"751006\",\"district\":\"Bhubaneswar\",\"state\":\"Odisha\",\"rtoRate\":0.11}"
+  },
+  {
+    "key": "district:751006",
+    "value": "{\"district\":\"Bhubaneswar\",\"state\":\"Odisha\"}"
+  },
+  {
+    "key": "pincode:751007",
+    "value": "{\"pincode\":\"751007\",\"district\":\"Bhubaneswar\",\"state\":\"Odisha\",\"rtoRate\":0.11}"
+  },
+  {
+    "key": "district:751007",
+    "value": "{\"district\":\"Bhubaneswar\",\"state\":\"Odisha\"}"
+  },
+  {
+    "key": "pincode:751008",
+    "value": "{\"pincode\":\"751008\",\"district\":\"Bhubaneswar\",\"state\":\"Odisha\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:751008",
+    "value": "{\"district\":\"Bhubaneswar\",\"state\":\"Odisha\"}"
+  },
+  {
+    "key": "pincode:751009",
+    "value": "{\"pincode\":\"751009\",\"district\":\"Bhubaneswar\",\"state\":\"Odisha\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:751009",
+    "value": "{\"district\":\"Bhubaneswar\",\"state\":\"Odisha\"}"
+  },
+  {
+    "key": "pincode:751010",
+    "value": "{\"pincode\":\"751010\",\"district\":\"Bhubaneswar\",\"state\":\"Odisha\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:751010",
+    "value": "{\"district\":\"Bhubaneswar\",\"state\":\"Odisha\"}"
+  },
+  {
+    "key": "pincode:751011",
+    "value": "{\"pincode\":\"751011\",\"district\":\"Bhubaneswar\",\"state\":\"Odisha\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:751011",
+    "value": "{\"district\":\"Bhubaneswar\",\"state\":\"Odisha\"}"
+  },
+  {
+    "key": "pincode:751012",
+    "value": "{\"pincode\":\"751012\",\"district\":\"Bhubaneswar\",\"state\":\"Odisha\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:751012",
+    "value": "{\"district\":\"Bhubaneswar\",\"state\":\"Odisha\"}"
+  },
+  {
+    "key": "pincode:751013",
+    "value": "{\"pincode\":\"751013\",\"district\":\"Bhubaneswar\",\"state\":\"Odisha\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:751013",
+    "value": "{\"district\":\"Bhubaneswar\",\"state\":\"Odisha\"}"
+  },
+  {
+    "key": "pincode:751014",
+    "value": "{\"pincode\":\"751014\",\"district\":\"Bhubaneswar\",\"state\":\"Odisha\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:751014",
+    "value": "{\"district\":\"Bhubaneswar\",\"state\":\"Odisha\"}"
+  },
+  {
+    "key": "pincode:751015",
+    "value": "{\"pincode\":\"751015\",\"district\":\"Bhubaneswar\",\"state\":\"Odisha\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:751015",
+    "value": "{\"district\":\"Bhubaneswar\",\"state\":\"Odisha\"}"
+  },
+  {
+    "key": "pincode:751016",
+    "value": "{\"pincode\":\"751016\",\"district\":\"Bhubaneswar\",\"state\":\"Odisha\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:751016",
+    "value": "{\"district\":\"Bhubaneswar\",\"state\":\"Odisha\"}"
+  },
+  {
+    "key": "pincode:751017",
+    "value": "{\"pincode\":\"751017\",\"district\":\"Bhubaneswar\",\"state\":\"Odisha\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:751017",
+    "value": "{\"district\":\"Bhubaneswar\",\"state\":\"Odisha\"}"
+  },
+  {
+    "key": "pincode:751018",
+    "value": "{\"pincode\":\"751018\",\"district\":\"Bhubaneswar\",\"state\":\"Odisha\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:751018",
+    "value": "{\"district\":\"Bhubaneswar\",\"state\":\"Odisha\"}"
+  },
+  {
+    "key": "pincode:751019",
+    "value": "{\"pincode\":\"751019\",\"district\":\"Bhubaneswar\",\"state\":\"Odisha\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:751019",
+    "value": "{\"district\":\"Bhubaneswar\",\"state\":\"Odisha\"}"
+  },
+  {
+    "key": "pincode:751020",
+    "value": "{\"pincode\":\"751020\",\"district\":\"Bhubaneswar\",\"state\":\"Odisha\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:751020",
+    "value": "{\"district\":\"Bhubaneswar\",\"state\":\"Odisha\"}"
+  },
+  {
+    "key": "pincode:800001",
+    "value": "{\"pincode\":\"800001\",\"district\":\"Patna\",\"state\":\"Bihar\",\"rtoRate\":0.15}"
+  },
+  {
+    "key": "district:800001",
+    "value": "{\"district\":\"Patna\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:800002",
+    "value": "{\"pincode\":\"800002\",\"district\":\"Patna\",\"state\":\"Bihar\",\"rtoRate\":0.14}"
+  },
+  {
+    "key": "district:800002",
+    "value": "{\"district\":\"Patna\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:800003",
+    "value": "{\"pincode\":\"800003\",\"district\":\"Patna\",\"state\":\"Bihar\",\"rtoRate\":0.14}"
+  },
+  {
+    "key": "district:800003",
+    "value": "{\"district\":\"Patna\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:800004",
+    "value": "{\"pincode\":\"800004\",\"district\":\"Patna\",\"state\":\"Bihar\",\"rtoRate\":0.13}"
+  },
+  {
+    "key": "district:800004",
+    "value": "{\"district\":\"Patna\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:800005",
+    "value": "{\"pincode\":\"800005\",\"district\":\"Patna\",\"state\":\"Bihar\",\"rtoRate\":0.13}"
+  },
+  {
+    "key": "district:800005",
+    "value": "{\"district\":\"Patna\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:800006",
+    "value": "{\"pincode\":\"800006\",\"district\":\"Patna\",\"state\":\"Bihar\",\"rtoRate\":0.12}"
+  },
+  {
+    "key": "district:800006",
+    "value": "{\"district\":\"Patna\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:800007",
+    "value": "{\"pincode\":\"800007\",\"district\":\"Patna\",\"state\":\"Bihar\",\"rtoRate\":0.12}"
+  },
+  {
+    "key": "district:800007",
+    "value": "{\"district\":\"Patna\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:800008",
+    "value": "{\"pincode\":\"800008\",\"district\":\"Patna\",\"state\":\"Bihar\",\"rtoRate\":0.11}"
+  },
+  {
+    "key": "district:800008",
+    "value": "{\"district\":\"Patna\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:800009",
+    "value": "{\"pincode\":\"800009\",\"district\":\"Patna\",\"state\":\"Bihar\",\"rtoRate\":0.11}"
+  },
+  {
+    "key": "district:800009",
+    "value": "{\"district\":\"Patna\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:800010",
+    "value": "{\"pincode\":\"800010\",\"district\":\"Patna\",\"state\":\"Bihar\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:800010",
+    "value": "{\"district\":\"Patna\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:800011",
+    "value": "{\"pincode\":\"800011\",\"district\":\"Patna\",\"state\":\"Bihar\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:800011",
+    "value": "{\"district\":\"Patna\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:800012",
+    "value": "{\"pincode\":\"800012\",\"district\":\"Patna\",\"state\":\"Bihar\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:800012",
+    "value": "{\"district\":\"Patna\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:800013",
+    "value": "{\"pincode\":\"800013\",\"district\":\"Patna\",\"state\":\"Bihar\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:800013",
+    "value": "{\"district\":\"Patna\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:800014",
+    "value": "{\"pincode\":\"800014\",\"district\":\"Patna\",\"state\":\"Bihar\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:800014",
+    "value": "{\"district\":\"Patna\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:800015",
+    "value": "{\"pincode\":\"800015\",\"district\":\"Patna\",\"state\":\"Bihar\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:800015",
+    "value": "{\"district\":\"Patna\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:800016",
+    "value": "{\"pincode\":\"800016\",\"district\":\"Patna\",\"state\":\"Bihar\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:800016",
+    "value": "{\"district\":\"Patna\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:800017",
+    "value": "{\"pincode\":\"800017\",\"district\":\"Patna\",\"state\":\"Bihar\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:800017",
+    "value": "{\"district\":\"Patna\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:800018",
+    "value": "{\"pincode\":\"800018\",\"district\":\"Patna\",\"state\":\"Bihar\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:800018",
+    "value": "{\"district\":\"Patna\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:800019",
+    "value": "{\"pincode\":\"800019\",\"district\":\"Patna\",\"state\":\"Bihar\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:800019",
+    "value": "{\"district\":\"Patna\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:800020",
+    "value": "{\"pincode\":\"800020\",\"district\":\"Patna\",\"state\":\"Bihar\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:800020",
+    "value": "{\"district\":\"Patna\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:141001",
+    "value": "{\"pincode\":\"141001\",\"district\":\"Ludhiana\",\"state\":\"Punjab\",\"rtoRate\":0.14}"
+  },
+  {
+    "key": "district:141001",
+    "value": "{\"district\":\"Ludhiana\",\"state\":\"Punjab\"}"
+  },
+  {
+    "key": "pincode:141002",
+    "value": "{\"pincode\":\"141002\",\"district\":\"Ludhiana\",\"state\":\"Punjab\",\"rtoRate\":0.13}"
+  },
+  {
+    "key": "district:141002",
+    "value": "{\"district\":\"Ludhiana\",\"state\":\"Punjab\"}"
+  },
+  {
+    "key": "pincode:141003",
+    "value": "{\"pincode\":\"141003\",\"district\":\"Ludhiana\",\"state\":\"Punjab\",\"rtoRate\":0.13}"
+  },
+  {
+    "key": "district:141003",
+    "value": "{\"district\":\"Ludhiana\",\"state\":\"Punjab\"}"
+  },
+  {
+    "key": "pincode:141004",
+    "value": "{\"pincode\":\"141004\",\"district\":\"Ludhiana\",\"state\":\"Punjab\",\"rtoRate\":0.12}"
+  },
+  {
+    "key": "district:141004",
+    "value": "{\"district\":\"Ludhiana\",\"state\":\"Punjab\"}"
+  },
+  {
+    "key": "pincode:141005",
+    "value": "{\"pincode\":\"141005\",\"district\":\"Ludhiana\",\"state\":\"Punjab\",\"rtoRate\":0.12}"
+  },
+  {
+    "key": "district:141005",
+    "value": "{\"district\":\"Ludhiana\",\"state\":\"Punjab\"}"
+  },
+  {
+    "key": "pincode:141006",
+    "value": "{\"pincode\":\"141006\",\"district\":\"Ludhiana\",\"state\":\"Punjab\",\"rtoRate\":0.11}"
+  },
+  {
+    "key": "district:141006",
+    "value": "{\"district\":\"Ludhiana\",\"state\":\"Punjab\"}"
+  },
+  {
+    "key": "pincode:141007",
+    "value": "{\"pincode\":\"141007\",\"district\":\"Ludhiana\",\"state\":\"Punjab\",\"rtoRate\":0.11}"
+  },
+  {
+    "key": "district:141007",
+    "value": "{\"district\":\"Ludhiana\",\"state\":\"Punjab\"}"
+  },
+  {
+    "key": "pincode:141008",
+    "value": "{\"pincode\":\"141008\",\"district\":\"Ludhiana\",\"state\":\"Punjab\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:141008",
+    "value": "{\"district\":\"Ludhiana\",\"state\":\"Punjab\"}"
+  },
+  {
+    "key": "pincode:141009",
+    "value": "{\"pincode\":\"141009\",\"district\":\"Ludhiana\",\"state\":\"Punjab\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:141009",
+    "value": "{\"district\":\"Ludhiana\",\"state\":\"Punjab\"}"
+  },
+  {
+    "key": "pincode:141010",
+    "value": "{\"pincode\":\"141010\",\"district\":\"Ludhiana\",\"state\":\"Punjab\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:141010",
+    "value": "{\"district\":\"Ludhiana\",\"state\":\"Punjab\"}"
+  },
+  {
+    "key": "pincode:141011",
+    "value": "{\"pincode\":\"141011\",\"district\":\"Ludhiana\",\"state\":\"Punjab\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:141011",
+    "value": "{\"district\":\"Ludhiana\",\"state\":\"Punjab\"}"
+  },
+  {
+    "key": "pincode:141012",
+    "value": "{\"pincode\":\"141012\",\"district\":\"Ludhiana\",\"state\":\"Punjab\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:141012",
+    "value": "{\"district\":\"Ludhiana\",\"state\":\"Punjab\"}"
+  },
+  {
+    "key": "pincode:141013",
+    "value": "{\"pincode\":\"141013\",\"district\":\"Ludhiana\",\"state\":\"Punjab\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:141013",
+    "value": "{\"district\":\"Ludhiana\",\"state\":\"Punjab\"}"
+  },
+  {
+    "key": "pincode:141014",
+    "value": "{\"pincode\":\"141014\",\"district\":\"Ludhiana\",\"state\":\"Punjab\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:141014",
+    "value": "{\"district\":\"Ludhiana\",\"state\":\"Punjab\"}"
+  },
+  {
+    "key": "pincode:141015",
+    "value": "{\"pincode\":\"141015\",\"district\":\"Ludhiana\",\"state\":\"Punjab\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:141015",
+    "value": "{\"district\":\"Ludhiana\",\"state\":\"Punjab\"}"
+  },
+  {
+    "key": "pincode:141016",
+    "value": "{\"pincode\":\"141016\",\"district\":\"Ludhiana\",\"state\":\"Punjab\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:141016",
+    "value": "{\"district\":\"Ludhiana\",\"state\":\"Punjab\"}"
+  },
+  {
+    "key": "pincode:141017",
+    "value": "{\"pincode\":\"141017\",\"district\":\"Ludhiana\",\"state\":\"Punjab\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:141017",
+    "value": "{\"district\":\"Ludhiana\",\"state\":\"Punjab\"}"
+  },
+  {
+    "key": "pincode:141018",
+    "value": "{\"pincode\":\"141018\",\"district\":\"Ludhiana\",\"state\":\"Punjab\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:141018",
+    "value": "{\"district\":\"Ludhiana\",\"state\":\"Punjab\"}"
+  },
+  {
+    "key": "pincode:141019",
+    "value": "{\"pincode\":\"141019\",\"district\":\"Ludhiana\",\"state\":\"Punjab\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:141019",
+    "value": "{\"district\":\"Ludhiana\",\"state\":\"Punjab\"}"
+  },
+  {
+    "key": "pincode:141020",
+    "value": "{\"pincode\":\"141020\",\"district\":\"Ludhiana\",\"state\":\"Punjab\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:141020",
+    "value": "{\"district\":\"Ludhiana\",\"state\":\"Punjab\"}"
+  },
+  {
+    "key": "pincode:302001",
+    "value": "{\"pincode\":\"302001\",\"district\":\"Jaipur\",\"state\":\"Rajasthan\",\"rtoRate\":0.12}"
+  },
+  {
+    "key": "district:302001",
+    "value": "{\"district\":\"Jaipur\",\"state\":\"Rajasthan\"}"
+  },
+  {
+    "key": "pincode:302002",
+    "value": "{\"pincode\":\"302002\",\"district\":\"Jaipur\",\"state\":\"Rajasthan\",\"rtoRate\":0.11}"
+  },
+  {
+    "key": "district:302002",
+    "value": "{\"district\":\"Jaipur\",\"state\":\"Rajasthan\"}"
+  },
+  {
+    "key": "pincode:302003",
+    "value": "{\"pincode\":\"302003\",\"district\":\"Jaipur\",\"state\":\"Rajasthan\",\"rtoRate\":0.11}"
+  },
+  {
+    "key": "district:302003",
+    "value": "{\"district\":\"Jaipur\",\"state\":\"Rajasthan\"}"
+  },
+  {
+    "key": "pincode:302004",
+    "value": "{\"pincode\":\"302004\",\"district\":\"Jaipur\",\"state\":\"Rajasthan\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:302004",
+    "value": "{\"district\":\"Jaipur\",\"state\":\"Rajasthan\"}"
+  },
+  {
+    "key": "pincode:302005",
+    "value": "{\"pincode\":\"302005\",\"district\":\"Jaipur\",\"state\":\"Rajasthan\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:302005",
+    "value": "{\"district\":\"Jaipur\",\"state\":\"Rajasthan\"}"
+  },
+  {
+    "key": "pincode:302006",
+    "value": "{\"pincode\":\"302006\",\"district\":\"Jaipur\",\"state\":\"Rajasthan\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:302006",
+    "value": "{\"district\":\"Jaipur\",\"state\":\"Rajasthan\"}"
+  },
+  {
+    "key": "pincode:302007",
+    "value": "{\"pincode\":\"302007\",\"district\":\"Jaipur\",\"state\":\"Rajasthan\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:302007",
+    "value": "{\"district\":\"Jaipur\",\"state\":\"Rajasthan\"}"
+  },
+  {
+    "key": "pincode:302008",
+    "value": "{\"pincode\":\"302008\",\"district\":\"Jaipur\",\"state\":\"Rajasthan\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:302008",
+    "value": "{\"district\":\"Jaipur\",\"state\":\"Rajasthan\"}"
+  },
+  {
+    "key": "pincode:302009",
+    "value": "{\"pincode\":\"302009\",\"district\":\"Jaipur\",\"state\":\"Rajasthan\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:302009",
+    "value": "{\"district\":\"Jaipur\",\"state\":\"Rajasthan\"}"
+  },
+  {
+    "key": "pincode:302010",
+    "value": "{\"pincode\":\"302010\",\"district\":\"Jaipur\",\"state\":\"Rajasthan\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:302010",
+    "value": "{\"district\":\"Jaipur\",\"state\":\"Rajasthan\"}"
+  },
+  {
+    "key": "pincode:302011",
+    "value": "{\"pincode\":\"302011\",\"district\":\"Jaipur\",\"state\":\"Rajasthan\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:302011",
+    "value": "{\"district\":\"Jaipur\",\"state\":\"Rajasthan\"}"
+  },
+  {
+    "key": "pincode:302012",
+    "value": "{\"pincode\":\"302012\",\"district\":\"Jaipur\",\"state\":\"Rajasthan\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:302012",
+    "value": "{\"district\":\"Jaipur\",\"state\":\"Rajasthan\"}"
+  },
+  {
+    "key": "pincode:302013",
+    "value": "{\"pincode\":\"302013\",\"district\":\"Jaipur\",\"state\":\"Rajasthan\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:302013",
+    "value": "{\"district\":\"Jaipur\",\"state\":\"Rajasthan\"}"
+  },
+  {
+    "key": "pincode:302014",
+    "value": "{\"pincode\":\"302014\",\"district\":\"Jaipur\",\"state\":\"Rajasthan\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:302014",
+    "value": "{\"district\":\"Jaipur\",\"state\":\"Rajasthan\"}"
+  },
+  {
+    "key": "pincode:302015",
+    "value": "{\"pincode\":\"302015\",\"district\":\"Jaipur\",\"state\":\"Rajasthan\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:302015",
+    "value": "{\"district\":\"Jaipur\",\"state\":\"Rajasthan\"}"
+  },
+  {
+    "key": "pincode:302016",
+    "value": "{\"pincode\":\"302016\",\"district\":\"Jaipur\",\"state\":\"Rajasthan\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:302016",
+    "value": "{\"district\":\"Jaipur\",\"state\":\"Rajasthan\"}"
+  },
+  {
+    "key": "pincode:302017",
+    "value": "{\"pincode\":\"302017\",\"district\":\"Jaipur\",\"state\":\"Rajasthan\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:302017",
+    "value": "{\"district\":\"Jaipur\",\"state\":\"Rajasthan\"}"
+  },
+  {
+    "key": "pincode:302018",
+    "value": "{\"pincode\":\"302018\",\"district\":\"Jaipur\",\"state\":\"Rajasthan\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:302018",
+    "value": "{\"district\":\"Jaipur\",\"state\":\"Rajasthan\"}"
+  },
+  {
+    "key": "pincode:302019",
+    "value": "{\"pincode\":\"302019\",\"district\":\"Jaipur\",\"state\":\"Rajasthan\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:302019",
+    "value": "{\"district\":\"Jaipur\",\"state\":\"Rajasthan\"}"
+  },
+  {
+    "key": "pincode:302020",
+    "value": "{\"pincode\":\"302020\",\"district\":\"Jaipur\",\"state\":\"Rajasthan\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:302020",
+    "value": "{\"district\":\"Jaipur\",\"state\":\"Rajasthan\"}"
+  },
+  {
+    "key": "pincode:462001",
+    "value": "{\"pincode\":\"462001\",\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\",\"rtoRate\":0.11}"
+  },
+  {
+    "key": "district:462001",
+    "value": "{\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\"}"
+  },
+  {
+    "key": "pincode:462002",
+    "value": "{\"pincode\":\"462002\",\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:462002",
+    "value": "{\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\"}"
+  },
+  {
+    "key": "pincode:462003",
+    "value": "{\"pincode\":\"462003\",\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:462003",
+    "value": "{\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\"}"
+  },
+  {
+    "key": "pincode:462004",
+    "value": "{\"pincode\":\"462004\",\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:462004",
+    "value": "{\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\"}"
+  },
+  {
+    "key": "pincode:462005",
+    "value": "{\"pincode\":\"462005\",\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:462005",
+    "value": "{\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\"}"
+  },
+  {
+    "key": "pincode:462006",
+    "value": "{\"pincode\":\"462006\",\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:462006",
+    "value": "{\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\"}"
+  },
+  {
+    "key": "pincode:462007",
+    "value": "{\"pincode\":\"462007\",\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:462007",
+    "value": "{\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\"}"
+  },
+  {
+    "key": "pincode:462008",
+    "value": "{\"pincode\":\"462008\",\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:462008",
+    "value": "{\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\"}"
+  },
+  {
+    "key": "pincode:462009",
+    "value": "{\"pincode\":\"462009\",\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:462009",
+    "value": "{\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\"}"
+  },
+  {
+    "key": "pincode:462010",
+    "value": "{\"pincode\":\"462010\",\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:462010",
+    "value": "{\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\"}"
+  },
+  {
+    "key": "pincode:462011",
+    "value": "{\"pincode\":\"462011\",\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:462011",
+    "value": "{\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\"}"
+  },
+  {
+    "key": "pincode:462012",
+    "value": "{\"pincode\":\"462012\",\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:462012",
+    "value": "{\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\"}"
+  },
+  {
+    "key": "pincode:462013",
+    "value": "{\"pincode\":\"462013\",\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:462013",
+    "value": "{\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\"}"
+  },
+  {
+    "key": "pincode:462014",
+    "value": "{\"pincode\":\"462014\",\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:462014",
+    "value": "{\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\"}"
+  },
+  {
+    "key": "pincode:462015",
+    "value": "{\"pincode\":\"462015\",\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:462015",
+    "value": "{\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\"}"
+  },
+  {
+    "key": "pincode:462016",
+    "value": "{\"pincode\":\"462016\",\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:462016",
+    "value": "{\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\"}"
+  },
+  {
+    "key": "pincode:462017",
+    "value": "{\"pincode\":\"462017\",\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:462017",
+    "value": "{\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\"}"
+  },
+  {
+    "key": "pincode:462018",
+    "value": "{\"pincode\":\"462018\",\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:462018",
+    "value": "{\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\"}"
+  },
+  {
+    "key": "pincode:462019",
+    "value": "{\"pincode\":\"462019\",\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:462019",
+    "value": "{\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\"}"
+  },
+  {
+    "key": "pincode:462020",
+    "value": "{\"pincode\":\"462020\",\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:462020",
+    "value": "{\"district\":\"Bhopal\",\"state\":\"Madhya Pradesh\"}"
+  },
+  {
+    "key": "pincode:282001",
+    "value": "{\"pincode\":\"282001\",\"district\":\"Agra\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.15}"
+  },
+  {
+    "key": "district:282001",
+    "value": "{\"district\":\"Agra\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:282002",
+    "value": "{\"pincode\":\"282002\",\"district\":\"Agra\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.14}"
+  },
+  {
+    "key": "district:282002",
+    "value": "{\"district\":\"Agra\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:282003",
+    "value": "{\"pincode\":\"282003\",\"district\":\"Agra\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.14}"
+  },
+  {
+    "key": "district:282003",
+    "value": "{\"district\":\"Agra\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:282004",
+    "value": "{\"pincode\":\"282004\",\"district\":\"Agra\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.13}"
+  },
+  {
+    "key": "district:282004",
+    "value": "{\"district\":\"Agra\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:282005",
+    "value": "{\"pincode\":\"282005\",\"district\":\"Agra\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.13}"
+  },
+  {
+    "key": "district:282005",
+    "value": "{\"district\":\"Agra\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:282006",
+    "value": "{\"pincode\":\"282006\",\"district\":\"Agra\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.12}"
+  },
+  {
+    "key": "district:282006",
+    "value": "{\"district\":\"Agra\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:282007",
+    "value": "{\"pincode\":\"282007\",\"district\":\"Agra\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.12}"
+  },
+  {
+    "key": "district:282007",
+    "value": "{\"district\":\"Agra\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:282008",
+    "value": "{\"pincode\":\"282008\",\"district\":\"Agra\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.11}"
+  },
+  {
+    "key": "district:282008",
+    "value": "{\"district\":\"Agra\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:282009",
+    "value": "{\"pincode\":\"282009\",\"district\":\"Agra\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.11}"
+  },
+  {
+    "key": "district:282009",
+    "value": "{\"district\":\"Agra\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:282010",
+    "value": "{\"pincode\":\"282010\",\"district\":\"Agra\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:282010",
+    "value": "{\"district\":\"Agra\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:282011",
+    "value": "{\"pincode\":\"282011\",\"district\":\"Agra\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:282011",
+    "value": "{\"district\":\"Agra\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:282012",
+    "value": "{\"pincode\":\"282012\",\"district\":\"Agra\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:282012",
+    "value": "{\"district\":\"Agra\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:282013",
+    "value": "{\"pincode\":\"282013\",\"district\":\"Agra\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:282013",
+    "value": "{\"district\":\"Agra\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:282014",
+    "value": "{\"pincode\":\"282014\",\"district\":\"Agra\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:282014",
+    "value": "{\"district\":\"Agra\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:282015",
+    "value": "{\"pincode\":\"282015\",\"district\":\"Agra\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:282015",
+    "value": "{\"district\":\"Agra\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:282016",
+    "value": "{\"pincode\":\"282016\",\"district\":\"Agra\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:282016",
+    "value": "{\"district\":\"Agra\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:282017",
+    "value": "{\"pincode\":\"282017\",\"district\":\"Agra\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:282017",
+    "value": "{\"district\":\"Agra\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:282018",
+    "value": "{\"pincode\":\"282018\",\"district\":\"Agra\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:282018",
+    "value": "{\"district\":\"Agra\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:282019",
+    "value": "{\"pincode\":\"282019\",\"district\":\"Agra\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:282019",
+    "value": "{\"district\":\"Agra\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:282020",
+    "value": "{\"pincode\":\"282020\",\"district\":\"Agra\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:282020",
+    "value": "{\"district\":\"Agra\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:224164",
+    "value": "{\"pincode\":\"224164\",\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.26}"
+  },
+  {
+    "key": "district:224164",
+    "value": "{\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:224165",
+    "value": "{\"pincode\":\"224165\",\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.25}"
+  },
+  {
+    "key": "district:224165",
+    "value": "{\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:224166",
+    "value": "{\"pincode\":\"224166\",\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.24}"
+  },
+  {
+    "key": "district:224166",
+    "value": "{\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:224167",
+    "value": "{\"pincode\":\"224167\",\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.23}"
+  },
+  {
+    "key": "district:224167",
+    "value": "{\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:224168",
+    "value": "{\"pincode\":\"224168\",\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.22}"
+  },
+  {
+    "key": "district:224168",
+    "value": "{\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:224169",
+    "value": "{\"pincode\":\"224169\",\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.21}"
+  },
+  {
+    "key": "district:224169",
+    "value": "{\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:224170",
+    "value": "{\"pincode\":\"224170\",\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.2}"
+  },
+  {
+    "key": "district:224170",
+    "value": "{\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:224171",
+    "value": "{\"pincode\":\"224171\",\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.2}"
+  },
+  {
+    "key": "district:224171",
+    "value": "{\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:224172",
+    "value": "{\"pincode\":\"224172\",\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.19}"
+  },
+  {
+    "key": "district:224172",
+    "value": "{\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:224173",
+    "value": "{\"pincode\":\"224173\",\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.19}"
+  },
+  {
+    "key": "district:224173",
+    "value": "{\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:224174",
+    "value": "{\"pincode\":\"224174\",\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.18}"
+  },
+  {
+    "key": "district:224174",
+    "value": "{\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:224175",
+    "value": "{\"pincode\":\"224175\",\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.18}"
+  },
+  {
+    "key": "district:224175",
+    "value": "{\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:224176",
+    "value": "{\"pincode\":\"224176\",\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.17}"
+  },
+  {
+    "key": "district:224176",
+    "value": "{\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:224177",
+    "value": "{\"pincode\":\"224177\",\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.17}"
+  },
+  {
+    "key": "district:224177",
+    "value": "{\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:224178",
+    "value": "{\"pincode\":\"224178\",\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.16}"
+  },
+  {
+    "key": "district:224178",
+    "value": "{\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:224179",
+    "value": "{\"pincode\":\"224179\",\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.16}"
+  },
+  {
+    "key": "district:224179",
+    "value": "{\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:224180",
+    "value": "{\"pincode\":\"224180\",\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.15}"
+  },
+  {
+    "key": "district:224180",
+    "value": "{\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:224181",
+    "value": "{\"pincode\":\"224181\",\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.15}"
+  },
+  {
+    "key": "district:224181",
+    "value": "{\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:224182",
+    "value": "{\"pincode\":\"224182\",\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.14}"
+  },
+  {
+    "key": "district:224182",
+    "value": "{\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:224183",
+    "value": "{\"pincode\":\"224183\",\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.14}"
+  },
+  {
+    "key": "district:224183",
+    "value": "{\"district\":\"Ayodhya\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:273001",
+    "value": "{\"pincode\":\"273001\",\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.22}"
+  },
+  {
+    "key": "district:273001",
+    "value": "{\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:273002",
+    "value": "{\"pincode\":\"273002\",\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.2}"
+  },
+  {
+    "key": "district:273002",
+    "value": "{\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:273003",
+    "value": "{\"pincode\":\"273003\",\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.19}"
+  },
+  {
+    "key": "district:273003",
+    "value": "{\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:273004",
+    "value": "{\"pincode\":\"273004\",\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.18}"
+  },
+  {
+    "key": "district:273004",
+    "value": "{\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:273005",
+    "value": "{\"pincode\":\"273005\",\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.17}"
+  },
+  {
+    "key": "district:273005",
+    "value": "{\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:273006",
+    "value": "{\"pincode\":\"273006\",\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.16}"
+  },
+  {
+    "key": "district:273006",
+    "value": "{\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:273007",
+    "value": "{\"pincode\":\"273007\",\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.15}"
+  },
+  {
+    "key": "district:273007",
+    "value": "{\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:273008",
+    "value": "{\"pincode\":\"273008\",\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.15}"
+  },
+  {
+    "key": "district:273008",
+    "value": "{\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:273009",
+    "value": "{\"pincode\":\"273009\",\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.14}"
+  },
+  {
+    "key": "district:273009",
+    "value": "{\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:273010",
+    "value": "{\"pincode\":\"273010\",\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.14}"
+  },
+  {
+    "key": "district:273010",
+    "value": "{\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:273011",
+    "value": "{\"pincode\":\"273011\",\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.13}"
+  },
+  {
+    "key": "district:273011",
+    "value": "{\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:273012",
+    "value": "{\"pincode\":\"273012\",\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.13}"
+  },
+  {
+    "key": "district:273012",
+    "value": "{\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:273013",
+    "value": "{\"pincode\":\"273013\",\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.12}"
+  },
+  {
+    "key": "district:273013",
+    "value": "{\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:273014",
+    "value": "{\"pincode\":\"273014\",\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.12}"
+  },
+  {
+    "key": "district:273014",
+    "value": "{\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:273015",
+    "value": "{\"pincode\":\"273015\",\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.11}"
+  },
+  {
+    "key": "district:273015",
+    "value": "{\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:273016",
+    "value": "{\"pincode\":\"273016\",\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.11}"
+  },
+  {
+    "key": "district:273016",
+    "value": "{\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:273017",
+    "value": "{\"pincode\":\"273017\",\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:273017",
+    "value": "{\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:273018",
+    "value": "{\"pincode\":\"273018\",\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:273018",
+    "value": "{\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:273019",
+    "value": "{\"pincode\":\"273019\",\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:273019",
+    "value": "{\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:273020",
+    "value": "{\"pincode\":\"273020\",\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\",\"rtoRate\":0.1}"
+  },
+  {
+    "key": "district:273020",
+    "value": "{\"district\":\"Gorakhpur\",\"state\":\"Uttar Pradesh\"}"
+  },
+  {
+    "key": "pincode:825313",
+    "value": "{\"pincode\":\"825313\",\"district\":\"Bhagalpur\",\"state\":\"Bihar\",\"rtoRate\":0.3}"
+  },
+  {
+    "key": "district:825313",
+    "value": "{\"district\":\"Bhagalpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:825314",
+    "value": "{\"pincode\":\"825314\",\"district\":\"Bhagalpur\",\"state\":\"Bihar\",\"rtoRate\":0.29}"
+  },
+  {
+    "key": "district:825314",
+    "value": "{\"district\":\"Bhagalpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:825315",
+    "value": "{\"pincode\":\"825315\",\"district\":\"Bhagalpur\",\"state\":\"Bihar\",\"rtoRate\":0.28}"
+  },
+  {
+    "key": "district:825315",
+    "value": "{\"district\":\"Bhagalpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:825316",
+    "value": "{\"pincode\":\"825316\",\"district\":\"Bhagalpur\",\"state\":\"Bihar\",\"rtoRate\":0.27}"
+  },
+  {
+    "key": "district:825316",
+    "value": "{\"district\":\"Bhagalpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:825317",
+    "value": "{\"pincode\":\"825317\",\"district\":\"Bhagalpur\",\"state\":\"Bihar\",\"rtoRate\":0.26}"
+  },
+  {
+    "key": "district:825317",
+    "value": "{\"district\":\"Bhagalpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:825318",
+    "value": "{\"pincode\":\"825318\",\"district\":\"Bhagalpur\",\"state\":\"Bihar\",\"rtoRate\":0.25}"
+  },
+  {
+    "key": "district:825318",
+    "value": "{\"district\":\"Bhagalpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:825319",
+    "value": "{\"pincode\":\"825319\",\"district\":\"Bhagalpur\",\"state\":\"Bihar\",\"rtoRate\":0.24}"
+  },
+  {
+    "key": "district:825319",
+    "value": "{\"district\":\"Bhagalpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:825320",
+    "value": "{\"pincode\":\"825320\",\"district\":\"Bhagalpur\",\"state\":\"Bihar\",\"rtoRate\":0.23}"
+  },
+  {
+    "key": "district:825320",
+    "value": "{\"district\":\"Bhagalpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:825321",
+    "value": "{\"pincode\":\"825321\",\"district\":\"Bhagalpur\",\"state\":\"Bihar\",\"rtoRate\":0.22}"
+  },
+  {
+    "key": "district:825321",
+    "value": "{\"district\":\"Bhagalpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:825322",
+    "value": "{\"pincode\":\"825322\",\"district\":\"Bhagalpur\",\"state\":\"Bihar\",\"rtoRate\":0.21}"
+  },
+  {
+    "key": "district:825322",
+    "value": "{\"district\":\"Bhagalpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:825323",
+    "value": "{\"pincode\":\"825323\",\"district\":\"Bhagalpur\",\"state\":\"Bihar\",\"rtoRate\":0.2}"
+  },
+  {
+    "key": "district:825323",
+    "value": "{\"district\":\"Bhagalpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:825324",
+    "value": "{\"pincode\":\"825324\",\"district\":\"Bhagalpur\",\"state\":\"Bihar\",\"rtoRate\":0.2}"
+  },
+  {
+    "key": "district:825324",
+    "value": "{\"district\":\"Bhagalpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:825325",
+    "value": "{\"pincode\":\"825325\",\"district\":\"Bhagalpur\",\"state\":\"Bihar\",\"rtoRate\":0.19}"
+  },
+  {
+    "key": "district:825325",
+    "value": "{\"district\":\"Bhagalpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:825326",
+    "value": "{\"pincode\":\"825326\",\"district\":\"Bhagalpur\",\"state\":\"Bihar\",\"rtoRate\":0.19}"
+  },
+  {
+    "key": "district:825326",
+    "value": "{\"district\":\"Bhagalpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:825327",
+    "value": "{\"pincode\":\"825327\",\"district\":\"Bhagalpur\",\"state\":\"Bihar\",\"rtoRate\":0.18}"
+  },
+  {
+    "key": "district:825327",
+    "value": "{\"district\":\"Bhagalpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:825328",
+    "value": "{\"pincode\":\"825328\",\"district\":\"Bhagalpur\",\"state\":\"Bihar\",\"rtoRate\":0.18}"
+  },
+  {
+    "key": "district:825328",
+    "value": "{\"district\":\"Bhagalpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:825329",
+    "value": "{\"pincode\":\"825329\",\"district\":\"Bhagalpur\",\"state\":\"Bihar\",\"rtoRate\":0.17}"
+  },
+  {
+    "key": "district:825329",
+    "value": "{\"district\":\"Bhagalpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:825330",
+    "value": "{\"pincode\":\"825330\",\"district\":\"Bhagalpur\",\"state\":\"Bihar\",\"rtoRate\":0.17}"
+  },
+  {
+    "key": "district:825330",
+    "value": "{\"district\":\"Bhagalpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:825331",
+    "value": "{\"pincode\":\"825331\",\"district\":\"Bhagalpur\",\"state\":\"Bihar\",\"rtoRate\":0.16}"
+  },
+  {
+    "key": "district:825331",
+    "value": "{\"district\":\"Bhagalpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:825332",
+    "value": "{\"pincode\":\"825332\",\"district\":\"Bhagalpur\",\"state\":\"Bihar\",\"rtoRate\":0.16}"
+  },
+  {
+    "key": "district:825332",
+    "value": "{\"district\":\"Bhagalpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:842001",
+    "value": "{\"pincode\":\"842001\",\"district\":\"Muzaffarpur\",\"state\":\"Bihar\",\"rtoRate\":0.28}"
+  },
+  {
+    "key": "district:842001",
+    "value": "{\"district\":\"Muzaffarpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:842002",
+    "value": "{\"pincode\":\"842002\",\"district\":\"Muzaffarpur\",\"state\":\"Bihar\",\"rtoRate\":0.27}"
+  },
+  {
+    "key": "district:842002",
+    "value": "{\"district\":\"Muzaffarpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:842003",
+    "value": "{\"pincode\":\"842003\",\"district\":\"Muzaffarpur\",\"state\":\"Bihar\",\"rtoRate\":0.26}"
+  },
+  {
+    "key": "district:842003",
+    "value": "{\"district\":\"Muzaffarpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:842004",
+    "value": "{\"pincode\":\"842004\",\"district\":\"Muzaffarpur\",\"state\":\"Bihar\",\"rtoRate\":0.25}"
+  },
+  {
+    "key": "district:842004",
+    "value": "{\"district\":\"Muzaffarpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:842005",
+    "value": "{\"pincode\":\"842005\",\"district\":\"Muzaffarpur\",\"state\":\"Bihar\",\"rtoRate\":0.24}"
+  },
+  {
+    "key": "district:842005",
+    "value": "{\"district\":\"Muzaffarpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:842006",
+    "value": "{\"pincode\":\"842006\",\"district\":\"Muzaffarpur\",\"state\":\"Bihar\",\"rtoRate\":0.23}"
+  },
+  {
+    "key": "district:842006",
+    "value": "{\"district\":\"Muzaffarpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:842007",
+    "value": "{\"pincode\":\"842007\",\"district\":\"Muzaffarpur\",\"state\":\"Bihar\",\"rtoRate\":0.22}"
+  },
+  {
+    "key": "district:842007",
+    "value": "{\"district\":\"Muzaffarpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:842008",
+    "value": "{\"pincode\":\"842008\",\"district\":\"Muzaffarpur\",\"state\":\"Bihar\",\"rtoRate\":0.21}"
+  },
+  {
+    "key": "district:842008",
+    "value": "{\"district\":\"Muzaffarpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:842009",
+    "value": "{\"pincode\":\"842009\",\"district\":\"Muzaffarpur\",\"state\":\"Bihar\",\"rtoRate\":0.2}"
+  },
+  {
+    "key": "district:842009",
+    "value": "{\"district\":\"Muzaffarpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:842010",
+    "value": "{\"pincode\":\"842010\",\"district\":\"Muzaffarpur\",\"state\":\"Bihar\",\"rtoRate\":0.2}"
+  },
+  {
+    "key": "district:842010",
+    "value": "{\"district\":\"Muzaffarpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:842011",
+    "value": "{\"pincode\":\"842011\",\"district\":\"Muzaffarpur\",\"state\":\"Bihar\",\"rtoRate\":0.19}"
+  },
+  {
+    "key": "district:842011",
+    "value": "{\"district\":\"Muzaffarpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:842012",
+    "value": "{\"pincode\":\"842012\",\"district\":\"Muzaffarpur\",\"state\":\"Bihar\",\"rtoRate\":0.19}"
+  },
+  {
+    "key": "district:842012",
+    "value": "{\"district\":\"Muzaffarpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:842013",
+    "value": "{\"pincode\":\"842013\",\"district\":\"Muzaffarpur\",\"state\":\"Bihar\",\"rtoRate\":0.18}"
+  },
+  {
+    "key": "district:842013",
+    "value": "{\"district\":\"Muzaffarpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:842014",
+    "value": "{\"pincode\":\"842014\",\"district\":\"Muzaffarpur\",\"state\":\"Bihar\",\"rtoRate\":0.18}"
+  },
+  {
+    "key": "district:842014",
+    "value": "{\"district\":\"Muzaffarpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:842015",
+    "value": "{\"pincode\":\"842015\",\"district\":\"Muzaffarpur\",\"state\":\"Bihar\",\"rtoRate\":0.17}"
+  },
+  {
+    "key": "district:842015",
+    "value": "{\"district\":\"Muzaffarpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:842016",
+    "value": "{\"pincode\":\"842016\",\"district\":\"Muzaffarpur\",\"state\":\"Bihar\",\"rtoRate\":0.17}"
+  },
+  {
+    "key": "district:842016",
+    "value": "{\"district\":\"Muzaffarpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:842017",
+    "value": "{\"pincode\":\"842017\",\"district\":\"Muzaffarpur\",\"state\":\"Bihar\",\"rtoRate\":0.16}"
+  },
+  {
+    "key": "district:842017",
+    "value": "{\"district\":\"Muzaffarpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:842018",
+    "value": "{\"pincode\":\"842018\",\"district\":\"Muzaffarpur\",\"state\":\"Bihar\",\"rtoRate\":0.16}"
+  },
+  {
+    "key": "district:842018",
+    "value": "{\"district\":\"Muzaffarpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:842019",
+    "value": "{\"pincode\":\"842019\",\"district\":\"Muzaffarpur\",\"state\":\"Bihar\",\"rtoRate\":0.15}"
+  },
+  {
+    "key": "district:842019",
+    "value": "{\"district\":\"Muzaffarpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "pincode:842020",
+    "value": "{\"pincode\":\"842020\",\"district\":\"Muzaffarpur\",\"state\":\"Bihar\",\"rtoRate\":0.15}"
+  },
+  {
+    "key": "district:842020",
+    "value": "{\"district\":\"Muzaffarpur\",\"state\":\"Bihar\"}"
+  },
+  {
+    "key": "config:default",
+    "value": "{\"merchantId\":\"default\",\"threshold\":75,\"discountPercent\":10,\"productRiskMap\":{\"white-shoes\":0.7,\"electronics\":0.6,\"phones\":0.65,\"shoes\":0.5,\"sneakers\":0.55,\"books\":0.1,\"accessories\":0.15}}"
+  }
+]

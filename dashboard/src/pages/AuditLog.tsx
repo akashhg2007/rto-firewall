@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { API_BASE } from "../config";
 
 interface AuditEntry {
   orderId: string;
@@ -22,7 +23,7 @@ export default function AuditLog() {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`/api/dashboard/audit?limit=${pageSize}&offset=${page * pageSize}&filter=${filter}`)
+    fetch(`${API_BASE}/api/dashboard/audit?limit=${pageSize}&offset=${page * pageSize}&filter=${filter}`)
       .then((r) => r.json())
       .then((data) => {
         setEntries(data.entries || []);
